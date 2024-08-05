@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CryptoPulse/static/css/main.d17cead4.css",
+    "main.js": "/CryptoPulse/static/js/main.52eb2387.js",
+    "static/js/787.4576dbd6.chunk.js": "/CryptoPulse/static/js/787.4576dbd6.chunk.js",
+    "index.html": "/CryptoPulse/index.html",
+    "main.d17cead4.css.map": "/CryptoPulse/static/css/main.d17cead4.css.map",
+    "main.52eb2387.js.map": "/CryptoPulse/static/js/main.52eb2387.js.map",
+    "787.4576dbd6.chunk.js.map": "/CryptoPulse/static/js/787.4576dbd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d17cead4.css",
+    "static/js/main.52eb2387.js"
+  ]
+}
