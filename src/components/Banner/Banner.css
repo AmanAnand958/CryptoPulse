@@ -1,0 +1,223 @@
+h1 {
+    color: #333;
+    font-family: tahoma, sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 100%; /* Allow h1 to take full width */
+    max-width: 600px; /* Set a max-width to ensure content fits */
+    margin: 0 auto;
+    text-align: center; /* Center-align text within h1 */
+  }
+  
+  h1 span {
+    font-size: 40px;
+    margin-right: 20px; /* Space between 'always be' and animated words */
+    color: #fff; /* Color for 'always be' */
+  }
+  
+  .message {
+    display: inline-block; /* Allow message to sit inline with span */
+    overflow: hidden;
+    position: relative;
+    color: #333;
+    background-color: yellow; /* Background color for the animated text */
+    font-weight: 900;
+    white-space: nowrap;
+    animation: openclose 10s ease-in-out infinite;
+  }
+  
+  .word1, .word2, .word3 {
+    font-family: tahoma, sans-serif;
+    display: inline-block; /* Ensure words are inline */
+    padding-left: 0.5rem; /* Add padding to the left of words */
+  }
+  
+  @keyframes openclose {
+    0% {
+      width: 0;
+    }
+    10% {
+      width: 0;
+    }
+    20% {
+      width: 290px; /* Adjust width to fit longest word */
+    }
+    30% {
+      width: 200px;
+    }
+    40% {
+      width: 0;
+    }
+    50% {
+      width: 0;
+    }
+    60% {
+      width: 290px; /* Adjust width to fit longest word */
+    }
+    70% {
+      width: 200px;
+    }
+    80% {
+      width: 0;
+    }
+    90% {
+      width: 0;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  
+
+
+
+
+
+.container {
+	width: 100%;
+	height: 100%;
+	background-color: #c9d6df;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.field {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+}
+
+.mouse {
+	width: 50px;
+	height: 90px;
+	border: 3px solid #333;
+	border-radius: 60px;
+	position: relative;
+	&::before {
+		content: '';
+		width: 12px;
+		height: 12px;
+		position: absolute;
+		top: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: #333;
+		border-radius: 50%;
+		opacity: 1;
+		animation: wheel 2s infinite;
+		-webkit-animation: wheel 2s infinite;
+	}
+}
+
+@keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+@-webkit-keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+.scroll {
+	width: 60px;
+	height: 60px;
+	border: 2px solid #f9f5f5;
+	border-radius: 50%;
+	position: relative;
+	animation: down 1.5s infinite;
+	-webkit-animation: down 1.5s infinite;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 18px;
+		height: 18px;
+		border-left: 2px solid #fffcfc;
+  	border-bottom: 2px solid #fffefe;
+		transform: rotate(-45deg);
+	}
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+.arrow {
+	width: 0;
+	height: 40px;
+	border: 1px solid #333;
+	position: relative;
+	animation: scroll 1.5s infinite;
+	-webkit-animation: scroll 1.5s infinite;
+	&::after {
+		content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: -5px;
+    width: 1px;
+    height: 10px;
+		
+		
+    border-top: 10px solid #333;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+	}
+}
+
+@keyframes scroll {
+	0% {
+		height: 40px;
+	}
+	30% {
+		height: 70px;
+	}
+	60% {
+		height: 40px;
+	}
+}
+
+@-webkit-keyframes scroll {
+	0% {
+		height: 40px;
+	}
+	30% {
+		height: 70px;
+	}
+	60% {
+		height: 40px;
+	}
+}
