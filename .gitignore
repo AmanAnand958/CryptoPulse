@@ -1,23 +1,35 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Data files (large / generated)
+cryptopulse-rl/data/raw/
+cryptopulse-rl/data/processed/prices.csv
+cryptopulse-rl/data/processed/sentiment.csv
+cryptopulse-rl/data/processed/backtest_results.json
 
-# testing
-/coverage
+# Keep signal cache and metrics (small, reproducibility)
+# cryptopulse-rl/data/processed/signal_cache.json  <- committed
+# cryptopulse-rl/data/processed/signals.csv       <- committed
+# cryptopulse-rl/reports/                          <- committed (plots + metrics)
 
-# production
-/build
+# Policy checkpoint (regenerated each backtest run)
+cryptopulse-rl/data/processed/policy_checkpoint.json
 
-# misc
+# Node
+node_modules/
+build/
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
+# Logs
+*.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*

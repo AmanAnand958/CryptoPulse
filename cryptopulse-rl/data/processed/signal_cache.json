@@ -1,0 +1,2227 @@
+{
+  "binancecoin::2026-04-21": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score are mixed, making it uncertain to determine a clear direction."
+  },
+  "binancecoin::2026-04-22": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent 7-day return and sentiment score indicate a bullish trend, despite decreasing volume."
+  },
+  "binancecoin::2026-04-23": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+  },
+  "binancecoin::2026-04-24": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The neutral sentiment score and decreasing volume trend suggest a lack of clear direction, leading to a cautious hold stance."
+  },
+  "binancecoin::2026-04-25": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The neutral sentiment score and decreasing volume trend suggest uncertainty, making it difficult to predict a clear direction."
+  },
+  "binancecoin::2026-04-26": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and bearish sentiment score indicate a downward trend, suggesting a short position."
+  },
+  "binancecoin::2026-04-27": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-04-28": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns and increasing volume trend suggest a potential rebound from the recent decline."
+  },
+  "binancecoin::2026-04-29": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in BNB price."
+  },
+  "binancecoin::2026-04-30": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and negative returns over the last 7 days indicate a potential downward trend for BNB."
+  },
+  "binancecoin::2026-05-01": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "binancecoin::2026-05-02": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-05-03": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-05-04": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward move in BNB price over the next 1-3 days."
+  },
+  "binancecoin::2026-05-05": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent sentiment score and increasing volume trend suggest a bullish outlook for BNB over the next 1-3 days."
+  },
+  "binancecoin::2026-05-06": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent price action and increasing volume trend suggest a bullish outlook, supported by a positive sentiment score."
+  },
+  "binancecoin::2026-05-07": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent returns and increasing volume trend indicate a bullish momentum, supported by a strongly bullish sentiment score."
+  },
+  "binancecoin::2026-05-08": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and increasing volume trend suggest a bullish momentum for BNB."
+  },
+  "binancecoin::2026-05-09": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent returns and sentiment score indicate a bullish trend, despite decreasing volume."
+  },
+  "binancecoin::2026-05-10": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+  },
+  "binancecoin::2026-05-11": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+  },
+  "binancecoin::2026-05-12": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+  },
+  "binancecoin::2026-05-13": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bullish trend, despite a slight decrease in volume and a negative 1-day return."
+  },
+  "binancecoin::2026-05-14": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+  },
+  "binancecoin::2026-05-15": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and bullish sentiment score indicate a positive trend, supporting a long position."
+  },
+  "binancecoin::2026-05-16": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and increasing volume trend suggest a bullish outlook for BNB over the next 1-3 days."
+  },
+  "binancecoin::2026-05-17": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a potential downturn in BNB's price over the next 1-3 days."
+  },
+  "binancecoin::2026-05-18": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a likely downward movement in BNB price over the next 1-3 days."
+  },
+  "binancecoin::2026-05-19": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "binancecoin::2026-05-20": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "binancecoin::2026-05-21": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent returns and sentiment score indicate bearish momentum, suggesting a short position."
+  },
+  "binancecoin::2026-05-22": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "The recent bearish sentiment score and decreasing volume trend suggest a potential downward movement in BNB's price."
+  },
+  "binancecoin::2026-05-23": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-05-24": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-05-25": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-05-26": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and increasing volume trend indicate a bullish outlook for BNB."
+  },
+  "binancecoin::2026-05-27": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and increasing volume trend suggest a bullish outlook for BNB over the next 1-3 days."
+  },
+  "binancecoin::2026-05-28": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-05-29": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and negative returns over the last 7 days indicate a potential downward trend for BNB."
+  },
+  "binancecoin::2026-05-30": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns and 7-day return are mostly negative, indicating a bearish trend."
+  },
+  "binancecoin::2026-05-31": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent strong bullish sentiment and increasing volume trend suggest a continued upward movement in BNB price."
+  },
+  "binancecoin::2026-06-01": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent 7-day return and strongly bullish sentiment score indicate a positive outlook for BNB."
+  },
+  "binancecoin::2026-06-02": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and increasing volume trend indicate bullish momentum despite short-term volatility."
+  },
+  "binancecoin::2026-06-03": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-06-04": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-06-05": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-06-06": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "The strongly bearish sentiment score and recent negative daily returns suggest a continued downward trend for BNB."
+  },
+  "binancecoin::2026-06-07": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-06-08": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-06-09": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and strongly bearish sentiment score indicate a likely downward trend over the next 1-3 days."
+  },
+  "binancecoin::2026-06-10": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and strongly bearish sentiment score indicate a likely downward trend for BNB over the next 1-3 days."
+  },
+  "binancecoin::2026-06-11": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-06-12": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-06-13": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 7-day return and bullish sentiment score suggest a positive outlook for BNB, despite decreasing volume trend."
+  },
+  "binancecoin::2026-06-14": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "The recent 7-day return and bullish sentiment score suggest a positive outlook for BNB, despite decreasing volume trend."
+  },
+  "binancecoin::2026-06-15": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-06-16": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and increasing volume trend suggest a bullish outlook for BNB."
+  },
+  "binancecoin::2026-06-17": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-06-18": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent 7-day return and increasing volume trend suggest a bullish outlook for BNB."
+  },
+  "binancecoin::2026-06-19": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Strongly bearish sentiment and recent negative returns suggest a continued downward trend for BNB."
+  },
+  "binancecoin::2026-06-20": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-06-21": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in BNB price."
+  },
+  "binancecoin::2026-06-22": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in BNB price."
+  },
+  "binancecoin::2026-06-23": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward move in BNB price over the next 1-3 days."
+  },
+  "binancecoin::2026-06-24": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-06-25": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-06-26": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-06-27": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-06-28": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "binancecoin::2026-06-29": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "binancecoin::2026-06-30": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent bearish sentiment and negative 7-day return suggest caution, but increasing volume trend and moderate volatility warrant a neutral stance."
+  },
+  "binancecoin::2026-07-01": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "binancecoin::2026-07-02": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-07-03": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent 1-day return and increasing volume trend suggest a potential upward movement in BNB price."
+  },
+  "binancecoin::2026-07-04": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume, suggesting a potential upward movement."
+  },
+  "binancecoin::2026-07-05": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-07-06": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent returns and increasing volume trend indicate strong bullish momentum, supported by a strongly bullish sentiment score."
+  },
+  "binancecoin::2026-07-07": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent 7-day return and increasing volume trend indicate bullish momentum, supported by a positive sentiment score."
+  },
+  "binancecoin::2026-07-08": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and 7-day return indicate a mixed trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-07-09": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and 7-day return indicate mixed trends, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-07-10": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-07-11": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-07-12": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The neutral sentiment score and decreasing volume trend suggest uncertainty in the market, making it difficult to predict a clear direction."
+  },
+  "binancecoin::2026-07-13": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in BNB price."
+  },
+  "binancecoin::2026-07-14": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "binancecoin::2026-07-15": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 1-day return and increasing volume trend suggest a potential upward movement in BNB price."
+  },
+  "binancecoin::2026-07-16": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and increasing volume trend suggest a bullish outlook for BNB."
+  },
+  "binancecoin::2026-07-17": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "binancecoin::2026-07-18": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns and 7-day return are negative, indicating a bearish trend."
+  },
+  "bitcoin::2026-04-21": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return and bullish sentiment score suggest a potential upward trend, despite decreasing volume and mixed daily returns."
+  },
+  "bitcoin::2026-04-22": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and sentiment score indicate a bullish trend, supporting a long position."
+  },
+  "bitcoin::2026-04-23": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+  },
+  "bitcoin::2026-04-24": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+  },
+  "bitcoin::2026-04-25": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral market, making it uncertain to predict a clear direction."
+  },
+  "bitcoin::2026-04-26": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent mixed daily returns and neutral sentiment score suggest uncertainty in the market, making it difficult to predict a clear direction."
+  },
+  "bitcoin::2026-04-27": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and sentiment score indicate a bullish trend, supporting a long position."
+  },
+  "bitcoin::2026-04-28": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and 7-day return indicate a slightly positive trend, but the decreasing volume and neutral sentiment score suggest uncertainty."
+  },
+  "bitcoin::2026-04-29": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns and decreasing volume trend suggest a potential downturn in bitcoin price."
+  },
+  "bitcoin::2026-04-30": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and recent negative returns suggest a continued downward trend."
+  },
+  "bitcoin::2026-05-01": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downturn in bitcoin's price over the next 1-3 days."
+  },
+  "bitcoin::2026-05-02": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent sentiment score and increasing volume trend suggest a bullish outlook for bitcoin over the next 1-3 days."
+  },
+  "bitcoin::2026-05-03": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The neutral sentiment score and decreasing volume trend suggest uncertainty, making it difficult to predict a clear direction."
+  },
+  "bitcoin::2026-05-04": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral market, suggesting no strong direction over the next 1-3 days."
+  },
+  "bitcoin::2026-05-05": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent 7-day return and increasing volume trend indicate a bullish momentum for bitcoin."
+  },
+  "bitcoin::2026-05-06": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent 7-day return and increasing volume trend indicate bullish momentum."
+  },
+  "bitcoin::2026-05-07": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+  },
+  "bitcoin::2026-05-08": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and increasing volume trend suggest a bullish outlook for the next 1-3 days."
+  },
+  "bitcoin::2026-05-09": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The neutral sentiment score and decreasing volume trend suggest uncertainty, making it difficult to predict a clear direction."
+  },
+  "bitcoin::2026-05-10": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and 7-day return indicate a positive trend, despite decreasing volume and neutral sentiment."
+  },
+  "bitcoin::2026-05-11": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and sentiment score indicate a bullish trend, supporting a long position."
+  },
+  "bitcoin::2026-05-12": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and 7-day return indicate a mixed trend, making it uncertain to predict a clear direction."
+  },
+  "bitcoin::2026-05-13": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downturn in bitcoin's price over the next 1-3 days."
+  },
+  "bitcoin::2026-05-14": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and negative recent returns suggest a continued downward trend."
+  },
+  "bitcoin::2026-05-15": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent sentiment score and increasing volume trend suggest a bullish outlook for bitcoin over the next 1-3 days."
+  },
+  "bitcoin::2026-05-16": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "Mixed market signals with recent bearish sentiment and increasing volatility make it uncertain to predict a clear direction."
+  },
+  "bitcoin::2026-05-17": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a continuation of downward momentum."
+  },
+  "bitcoin::2026-05-18": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a continuation of the downward trend."
+  },
+  "bitcoin::2026-05-19": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "bitcoin::2026-05-20": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "bitcoin::2026-05-21": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns and 7-day return are mostly negative, indicating a bearish trend."
+  },
+  "bitcoin::2026-05-22": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward movement in bitcoin price."
+  },
+  "bitcoin::2026-05-23": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "bitcoin::2026-05-24": {
+    "direction": "long",
+    "confidence": 0.6,
+    "rationale": "Recent 1-day return is positive and volume trend is increasing, indicating potential for continued upward momentum."
+  },
+  "bitcoin::2026-05-25": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent mixed daily returns and neutral sentiment score indicate uncertainty in the market, making it difficult to predict a clear direction."
+  },
+  "bitcoin::2026-05-26": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "bitcoin::2026-05-27": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent market data shows mixed signals with neutral sentiment and increasing volume, making it uncertain to predict a clear direction."
+  },
+  "bitcoin::2026-05-28": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and recent negative returns suggest a continuation of the downward trend."
+  },
+  "bitcoin::2026-05-29": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and negative returns over the last 7 days indicate a likely downward trend."
+  },
+  "bitcoin::2026-05-30": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "bitcoin::2026-05-31": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in bitcoin price."
+  },
+  "bitcoin::2026-06-01": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "bitcoin::2026-06-02": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and negative returns suggest a continued downward trend."
+  },
+  "bitcoin::2026-06-03": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and recent downward trend suggest further price decline."
+  },
+  "bitcoin::2026-06-04": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and high recent losses indicate a likely continuation of the downward trend."
+  },
+  "bitcoin::2026-06-05": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "bitcoin::2026-06-06": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and high recent losses indicate a likely continuation of the downward trend."
+  },
+  "bitcoin::2026-06-07": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and decreasing volume trend indicate a likely continuation of the downward price movement."
+  },
+  "bitcoin::2026-06-08": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "bitcoin::2026-06-09": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Strongly bearish sentiment and decreasing volume trend suggest a continuation of the downward trend."
+  },
+  "bitcoin::2026-06-10": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "bitcoin::2026-06-11": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a likely downward movement in bitcoin's price over the next 1-3 days."
+  },
+  "bitcoin::2026-06-12": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+  },
+  "bitcoin::2026-06-13": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "The recent 7-day return is positive and the sentiment score is bullish, indicating a potential upward trend."
+  },
+  "bitcoin::2026-06-14": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and bullish sentiment score indicate a positive trend, despite decreasing volume."
+  },
+  "bitcoin::2026-06-15": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+  },
+  "bitcoin::2026-06-16": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent price action and increasing volume trend suggest a bullish outlook, supported by a positive sentiment score."
+  },
+  "bitcoin::2026-06-17": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent 7-day return and sentiment score indicate a bullish trend, despite decreasing volume and a slight 1-day return decline."
+  },
+  "bitcoin::2026-06-18": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and increasing volume trend suggest a bullish outlook for the next 1-3 days."
+  },
+  "bitcoin::2026-06-19": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent bearish sentiment and negative returns suggest a potential downward trend in the next 1-3 days."
+  },
+  "bitcoin::2026-06-20": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns and increasing volatility suggest a potential downturn in bitcoin's price over the next 1-3 days."
+  },
+  "bitcoin::2026-06-21": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent mixed daily returns and neutral sentiment score indicate uncertainty in the market, making it difficult to predict a clear direction."
+  },
+  "bitcoin::2026-06-22": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in bitcoin price."
+  },
+  "bitcoin::2026-06-23": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent mixed daily returns and bearish sentiment score create uncertainty, making it difficult to predict a clear direction."
+  },
+  "bitcoin::2026-06-24": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and negative daily returns suggest a continued downward trend for bitcoin."
+  },
+  "bitcoin::2026-06-25": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "bitcoin::2026-06-26": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "bitcoin::2026-06-27": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "bitcoin::2026-06-28": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a continuation of the downward trend."
+  },
+  "bitcoin::2026-06-29": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a continuation of the downward trend."
+  },
+  "bitcoin::2026-06-30": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and negative 7-day return suggest a continued downward trend."
+  },
+  "bitcoin::2026-07-01": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Strongly bearish sentiment and recent negative daily returns suggest a continued downward trend."
+  },
+  "bitcoin::2026-07-02": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent 1-day return is positive and volume trend is increasing, indicating potential for continued upward momentum."
+  },
+  "bitcoin::2026-07-03": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent price action and increasing volume trend suggest bullish momentum will continue over the next 1-3 days."
+  },
+  "bitcoin::2026-07-04": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and sentiment score indicate a bullish trend, supporting a long position."
+  },
+  "bitcoin::2026-07-05": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume, suggesting a potential upward movement in the next 1-3 days."
+  },
+  "bitcoin::2026-07-06": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and sentiment score indicate a bullish trend, despite decreasing volume."
+  },
+  "bitcoin::2026-07-07": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+  },
+  "bitcoin::2026-07-08": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+  },
+  "bitcoin::2026-07-09": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and 7-day return indicate a mixed trend, making it uncertain to predict a clear direction."
+  },
+  "bitcoin::2026-07-10": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+  },
+  "bitcoin::2026-07-11": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+  },
+  "bitcoin::2026-07-12": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral outlook, with decreasing volume trend adding to the uncertainty."
+  },
+  "bitcoin::2026-07-13": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+  },
+  "bitcoin::2026-07-14": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and negative returns suggest a continued downward trend."
+  },
+  "bitcoin::2026-07-15": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent 1-day return and increasing volume trend suggest bullish momentum, supported by a moderately bullish sentiment score."
+  },
+  "bitcoin::2026-07-16": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent 7-day return and increasing volume trend indicate bullish momentum, supported by a positive sentiment score."
+  },
+  "bitcoin::2026-07-17": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns and increasing volume trend suggest a potential upward movement in the next 1-3 days."
+  },
+  "bitcoin::2026-07-18": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral market, making it uncertain to predict a clear direction."
+  },
+  "cardano::2026-04-21": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return and bullish sentiment score suggest a potential upward trend for Cardano."
+  },
+  "cardano::2026-04-22": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 7-day return and bullish sentiment score suggest a positive outlook for ADA, despite decreasing volume trend."
+  },
+  "cardano::2026-04-23": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "cardano::2026-04-24": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-04-25": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price."
+  },
+  "cardano::2026-04-26": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "cardano::2026-04-27": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "cardano::2026-04-28": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downturn in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-04-29": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward move in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-04-30": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns and 7-day return are negative, indicating a bearish trend."
+  },
+  "cardano::2026-05-01": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downturn in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-05-02": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent mixed daily returns and neutral sentiment score indicate uncertainty in the market, making it difficult to predict a clear direction."
+  },
+  "cardano::2026-05-03": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "cardano::2026-05-04": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward move in ADA's price."
+  },
+  "cardano::2026-05-05": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Recent daily returns and increasing volume trend suggest a potential upward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-05-06": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent returns and strongly bullish sentiment suggest a continued upward trend for ADA."
+  },
+  "cardano::2026-05-07": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent daily returns and sentiment score indicate a strongly bullish trend, suggesting a likely upward direction over the next 1-3 days."
+  },
+  "cardano::2026-05-08": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+  },
+  "cardano::2026-05-09": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent strong daily returns and high sentiment score indicate a bullish trend."
+  },
+  "cardano::2026-05-10": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and sentiment score indicate a bullish trend, despite decreasing volume and a slight 1-day return decline."
+  },
+  "cardano::2026-05-11": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent strong returns and increasing volume trend, combined with a strongly bullish sentiment score, suggest a continued upward momentum for ADA."
+  },
+  "cardano::2026-05-12": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and sentiment score indicate a bullish trend, despite decreasing volume and a slight 1-day return decline."
+  },
+  "cardano::2026-05-13": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns and 7-day return indicate a potential reversal due to decreasing volume trend and neutral sentiment score."
+  },
+  "cardano::2026-05-14": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral outlook, making it uncertain to predict a clear direction over the next 1-3 days."
+  },
+  "cardano::2026-05-15": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and increasing volume trend indicate a bullish momentum for Cardano."
+  },
+  "cardano::2026-05-16": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward move in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-05-17": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "cardano::2026-05-18": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "The strongly bearish sentiment score and decreasing volume trend suggest a continued downward movement in ADA's price."
+  },
+  "cardano::2026-05-19": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and negative recent returns indicate a likely downward trend over the next 1-3 days."
+  },
+  "cardano::2026-05-20": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a strongly bearish trend, suggesting a short position."
+  },
+  "cardano::2026-05-21": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a likely downward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-05-22": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Bearish sentiment and negative recent returns suggest a continued downward trend for ADA."
+  },
+  "cardano::2026-05-23": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "The strongly bearish sentiment score and recent negative daily returns suggest a continued downward trend for ADA."
+  },
+  "cardano::2026-05-24": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "cardano::2026-05-25": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a likely downward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-05-26": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-05-27": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and recent negative daily returns suggest a continued downward trend for ADA."
+  },
+  "cardano::2026-05-28": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and recent negative returns suggest a continued downward trend for ADA."
+  },
+  "cardano::2026-05-29": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and negative recent returns suggest a continued downward trend for ADA."
+  },
+  "cardano::2026-05-30": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "cardano::2026-05-31": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a likely downward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-06-01": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "cardano::2026-06-02": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and negative recent returns suggest a continued downward trend for ADA."
+  },
+  "cardano::2026-06-03": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and recent negative returns indicate a likely continuation of the downtrend."
+  },
+  "cardano::2026-06-04": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Recent daily returns and sentiment score indicate a strong bearish trend, suggesting a short position."
+  },
+  "cardano::2026-06-05": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and high recent losses indicate a likely continuation of the downward trend."
+  },
+  "cardano::2026-06-06": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and high recent losses indicate a likely continuation of the downward trend."
+  },
+  "cardano::2026-06-07": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and high recent losses suggest continued downward momentum for ADA."
+  },
+  "cardano::2026-06-08": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and high 7-day realized volatility indicate a bearish trend."
+  },
+  "cardano::2026-06-09": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest continued downward momentum for ADA."
+  },
+  "cardano::2026-06-10": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and decreasing volume trend suggest continued downward momentum for ADA."
+  },
+  "cardano::2026-06-11": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Strongly bearish sentiment and decreasing volume trend suggest continued downward momentum for ADA."
+  },
+  "cardano::2026-06-12": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns and 7-day return are mostly negative, indicating a bearish trend."
+  },
+  "cardano::2026-06-13": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 7-day return and bullish sentiment score suggest a positive outlook, despite decreasing volume trend."
+  },
+  "cardano::2026-06-14": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and 7-day return indicate a bullish trend, supported by a bullish sentiment score."
+  },
+  "cardano::2026-06-15": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent daily returns and sentiment score indicate a strongly bullish trend, suggesting a likely upward direction over the next 1-3 days."
+  },
+  "cardano::2026-06-16": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and increasing volume trend suggest a bullish outlook for Cardano."
+  },
+  "cardano::2026-06-17": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns show mixed signals, but decreasing volume trend and neutral sentiment score suggest a potential downturn."
+  },
+  "cardano::2026-06-18": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral outlook, with no clear trend emerging to warrant a long or short position."
+  },
+  "cardano::2026-06-19": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-06-20": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "cardano::2026-06-21": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-06-22": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Strongly bearish sentiment and decreasing volume trend indicate a likely downward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-06-23": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and decreasing volume trend indicate a likely downward direction for ADA over the next 1-3 days."
+  },
+  "cardano::2026-06-24": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and consistently negative daily returns suggest a continued downward trend."
+  },
+  "cardano::2026-06-25": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Strongly bearish sentiment and high recent losses suggest continued downward momentum for ADA."
+  },
+  "cardano::2026-06-26": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and high recent losses indicate a likely continuation of the downward trend."
+  },
+  "cardano::2026-06-27": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent 1-day return is positive and volume trend is increasing, suggesting potential for short-term upside."
+  },
+  "cardano::2026-06-28": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Strongly bearish sentiment and decreasing volume trend indicate a likely continuation of the downward price movement."
+  },
+  "cardano::2026-06-29": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Strongly bearish sentiment and decreasing volume trend indicate a likely downward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-06-30": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward move in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-07-01": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "cardano::2026-07-02": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent 1-day return and strongly bullish sentiment score indicate a potential upward trend for ADA."
+  },
+  "cardano::2026-07-03": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent price action and strongly bullish sentiment suggest continued upward momentum for ADA."
+  },
+  "cardano::2026-07-04": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent strong daily returns, increasing volume trend, and a strongly bullish sentiment score suggest a continued upward momentum for ADA."
+  },
+  "cardano::2026-07-05": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent strong price gains, increasing volume trend, and a strongly bullish sentiment score suggest continued upward momentum for ADA."
+  },
+  "cardano::2026-07-06": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent high returns and increasing volume trend, combined with a bullish sentiment score, suggest a continued upward momentum for ADA."
+  },
+  "cardano::2026-07-07": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "Recent high returns and bullish sentiment are offset by decreasing volume trend and high volatility."
+  },
+  "cardano::2026-07-08": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns show a decline, and the 1-day return is negative, indicating a potential downward trend."
+  },
+  "cardano::2026-07-09": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns show a declining trend and increasing volatility, indicating a potential reversal in the upward momentum."
+  },
+  "cardano::2026-07-10": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+  },
+  "cardano::2026-07-11": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-07-12": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Strongly bearish sentiment and decreasing volume trend indicate a likely downward movement in ADA's price over the next 1-3 days."
+  },
+  "cardano::2026-07-13": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Recent daily returns and strongly bearish sentiment score indicate a high likelihood of continued downward momentum for ADA."
+  },
+  "cardano::2026-07-14": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "Recent daily returns and strongly bearish sentiment score indicate a high likelihood of continued downward momentum for ADA."
+  },
+  "cardano::2026-07-15": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Recent daily returns and 7-day return are mostly negative, indicating a bearish trend."
+  },
+  "cardano::2026-07-16": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent 1-day return and increasing volume trend suggest a potential upward movement for ADA."
+  },
+  "cardano::2026-07-17": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement."
+  },
+  "cardano::2026-07-18": {
+    "direction": "long",
+    "confidence": 0.6,
+    "rationale": "Recent 1-day return is positive and volume trend is increasing, indicating potential for continued upward momentum."
+  },
+  "ethereum::2026-04-21": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent 1-day return is positive and volume trend is increasing, indicating potential for continued upward momentum."
+  },
+  "ethereum::2026-04-22": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+  },
+  "ethereum::2026-04-23": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and increasing volume trend indicate a bullish sentiment, supported by a positive sentiment score."
+  },
+  "ethereum::2026-04-24": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns show a mix of gains and losses, but increasing volume trend and neutral sentiment suggest a potential rebound."
+  },
+  "ethereum::2026-04-25": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downward move in ETH price."
+  },
+  "ethereum::2026-04-26": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in Ethereum's price."
+  },
+  "ethereum::2026-04-27": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and bullish sentiment score indicate a positive trend, supporting a long position."
+  },
+  "ethereum::2026-04-28": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a potential downturn in Ethereum's price."
+  },
+  "ethereum::2026-04-29": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in Ethereum's price."
+  },
+  "ethereum::2026-04-30": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Ethereum's recent bearish sentiment and negative 7-day return suggest a continued downward trend."
+  },
+  "ethereum::2026-05-01": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+  },
+  "ethereum::2026-05-02": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+  },
+  "ethereum::2026-05-03": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+  },
+  "ethereum::2026-05-04": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downturn in Ethereum's price over the next 1-3 days."
+  },
+  "ethereum::2026-05-05": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent returns and increasing volume trend suggest a bullish outlook, supported by a positive sentiment score."
+  },
+  "ethereum::2026-05-06": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+  },
+  "ethereum::2026-05-07": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Recent 7-day return and increasing volume trend indicate a bullish sentiment, supporting a long position."
+  },
+  "ethereum::2026-05-08": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns and increasing volume trend suggest a potential bullish momentum for Ethereum."
+  },
+  "ethereum::2026-05-09": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns and increasing volume trend suggest a potential upward movement in ETH price."
+  },
+  "ethereum::2026-05-10": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+  },
+  "ethereum::2026-05-11": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-12": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-13": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-14": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-15": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-16": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-17": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-18": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-19": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-20": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-21": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-22": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-23": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-24": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-25": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-26": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-27": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-28": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-29": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-30": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-05-31": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "Bearish sentiment and decreasing volume trend suggest a potential downturn in Ethereum's price over the next 1-3 days."
+  },
+  "ethereum::2026-06-01": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-02": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-03": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-04": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-05": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-06": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-07": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-08": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-09": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-10": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-11": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-12": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-13": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-14": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-15": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-16": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-17": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-18": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-19": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-20": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-21": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-22": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-23": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-24": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-25": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-26": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-27": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-28": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-29": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-06-30": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-01": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-02": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-03": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-04": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-05": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-06": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Recent daily returns and increasing volume trend indicate a bullish momentum for Ethereum."
+  },
+  "ethereum::2026-07-07": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-08": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-09": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-10": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-11": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-12": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-13": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-14": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-15": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-16": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-17": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "ethereum::2026-07-18": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-04-21": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-04-22": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-04-23": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-04-24": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-04-25": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-04-26": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-04-27": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-04-28": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-04-29": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-04-30": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-01": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-02": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-03": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-04": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-05": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-06": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-07": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-08": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-09": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-10": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-11": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-12": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent daily returns and sentiment score indicate a strongly bullish trend, suggesting a likely upward direction over the next 1-3 days."
+  },
+  "solana::2026-05-13": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-14": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-15": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-16": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-17": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-18": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-19": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-20": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-21": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-22": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-23": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-24": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-25": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-26": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-27": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-28": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-29": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-30": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-05-31": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-01": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-02": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-03": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-04": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-05": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-06": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-07": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-08": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-09": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-10": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-11": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-12": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-13": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-14": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-15": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-16": {
+    "direction": "long",
+    "confidence": 0.8,
+    "rationale": "Recent price action and strongly bullish sentiment suggest continued upward momentum for SOL."
+  },
+  "solana::2026-06-17": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-18": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-19": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-20": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-21": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-22": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-23": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-24": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-25": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-26": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-27": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-28": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-29": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-06-30": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-01": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-02": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-03": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-04": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-05": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-06": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-07": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-08": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-09": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-10": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-11": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-12": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-13": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-14": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-15": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-16": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-17": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  },
+  "solana::2026-07-18": {
+    "direction": "hold",
+    "confidence": 0.0,
+    "rationale": "parse_failure"
+  }
+}

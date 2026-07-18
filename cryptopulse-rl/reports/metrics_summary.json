@@ -1,0 +1,107 @@
+{
+  "bitcoin": {
+    "bandit": {
+      "cumulative_return": -0.013490997573116004,
+      "sharpe_ratio": -2.8312599298788834,
+      "max_drawdown": 0.024064477890240302,
+      "final_value": 9865.09002426884
+    },
+    "buy_and_hold": {
+      "cumulative_return": 0.004534144084081815,
+      "sharpe_ratio": -0.32220259533640344,
+      "max_drawdown": 0.05749988097062785,
+      "final_value": 10045.341440840817
+    },
+    "llm_only": {
+      "cumulative_return": 0.03133853644882634,
+      "sharpe_ratio": -0.17206692321404107,
+      "max_drawdown": 0.041017495957084815,
+      "final_value": 10313.385364488264
+    }
+  },
+  "ethereum": {
+    "bandit": {
+      "cumulative_return": 0.0,
+      "sharpe_ratio": -2.7184455313643006,
+      "max_drawdown": 0.013103613306394073,
+      "final_value": 10000.0
+    },
+    "buy_and_hold": {
+      "cumulative_return": 0.016167089190673778,
+      "sharpe_ratio": -0.106315238888982,
+      "max_drawdown": 0.08261409642374289,
+      "final_value": 10161.670891906737
+    },
+    "llm_only": {
+      "cumulative_return": 0.00010480608791940682,
+      "sharpe_ratio": -2.4113590384816592,
+      "max_drawdown": 0.01576859768434553,
+      "final_value": 10001.048060879193
+    }
+  },
+  "solana": {
+    "bandit": {
+      "cumulative_return": 0.0,
+      "sharpe_ratio": -7.58236001092469,
+      "max_drawdown": 0.003924576613435967,
+      "final_value": 10000.0
+    },
+    "buy_and_hold": {
+      "cumulative_return": 0.035472351724768814,
+      "sharpe_ratio": 0.04464026541958958,
+      "max_drawdown": 0.08030318549687739,
+      "final_value": 10354.723517247689
+    },
+    "llm_only": {
+      "cumulative_return": 0.0,
+      "sharpe_ratio": -4.002040727096368,
+      "max_drawdown": 0.007818469046100734,
+      "final_value": 10000.0
+    }
+  },
+  "binancecoin": {
+    "bandit": {
+      "cumulative_return": -0.0037747598969759544,
+      "sharpe_ratio": -0.8622287015392412,
+      "max_drawdown": 0.044617892082694746,
+      "final_value": 9962.25240103024
+    },
+    "buy_and_hold": {
+      "cumulative_return": 0.0027975613251856046,
+      "sharpe_ratio": -0.24417356071308852,
+      "max_drawdown": 0.0938557009911773,
+      "final_value": 10027.975613251856
+    },
+    "llm_only": {
+      "cumulative_return": 0.02714339078216499,
+      "sharpe_ratio": -0.21396675427635337,
+      "max_drawdown": 0.05249126578213874,
+      "final_value": 10271.43390782165
+    }
+  },
+  "cardano": {
+    "bandit": {
+      "cumulative_return": 0.03129017213482732,
+      "sharpe_ratio": -0.11293482944915088,
+      "max_drawdown": 0.048880034328031625,
+      "final_value": 10312.901721348273
+    },
+    "buy_and_hold": {
+      "cumulative_return": 0.04329299554445032,
+      "sharpe_ratio": 0.11203277178179184,
+      "max_drawdown": 0.09881375671943461,
+      "final_value": 10432.929955444504
+    },
+    "llm_only": {
+      "cumulative_return": 0.08091133965848818,
+      "sharpe_ratio": 0.4934552873761311,
+      "max_drawdown": 0.08419007091684058,
+      "final_value": 10809.113396584882
+    }
+  },
+  "failure_period": {
+    "coin": "binancecoin",
+    "fold": 18,
+    "bandit_vs_llm_return_diff": -0.08528959584668705
+  }
+}

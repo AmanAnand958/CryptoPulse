@@ -1,0 +1,451 @@
+date,coin,symbol,direction,confidence,rationale
+2026-04-21 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score are mixed, making it uncertain to determine a clear direction."
+2026-04-22 00:00:00+00:00,binancecoin,BNB,long,0.62,"Recent 7-day return and sentiment score indicate a bullish trend, despite decreasing volume."
+2026-04-23 00:00:00+00:00,binancecoin,BNB,long,0.72,"Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+2026-04-24 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The neutral sentiment score and decreasing volume trend suggest a lack of clear direction, leading to a cautious hold stance."
+2026-04-25 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The neutral sentiment score and decreasing volume trend suggest uncertainty, making it difficult to predict a clear direction."
+2026-04-26 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and bearish sentiment score indicate a downward trend, suggesting a short position."
+2026-04-27 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-04-28 00:00:00+00:00,binancecoin,BNB,long,0.62,Recent daily returns and increasing volume trend suggest a potential rebound from the recent decline.
+2026-04-29 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in BNB price.
+2026-04-30 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and negative returns over the last 7 days indicate a potential downward trend for BNB.
+2026-05-01 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-05-02 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-05-03 00:00:00+00:00,binancecoin,BNB,short,0.62,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-05-04 00:00:00+00:00,binancecoin,BNB,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward move in BNB price over the next 1-3 days.
+2026-05-05 00:00:00+00:00,binancecoin,BNB,long,0.7,Recent sentiment score and increasing volume trend suggest a bullish outlook for BNB over the next 1-3 days.
+2026-05-06 00:00:00+00:00,binancecoin,BNB,long,0.7,"Recent price action and increasing volume trend suggest a bullish outlook, supported by a positive sentiment score."
+2026-05-07 00:00:00+00:00,binancecoin,BNB,long,0.8,"Recent returns and increasing volume trend indicate a bullish momentum, supported by a strongly bullish sentiment score."
+2026-05-08 00:00:00+00:00,binancecoin,BNB,long,0.7,Recent daily returns and increasing volume trend suggest a bullish momentum for BNB.
+2026-05-09 00:00:00+00:00,binancecoin,BNB,long,0.7,"Recent returns and sentiment score indicate a bullish trend, despite decreasing volume."
+2026-05-10 00:00:00+00:00,binancecoin,BNB,long,0.7,"Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+2026-05-11 00:00:00+00:00,binancecoin,BNB,long,0.72,"Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+2026-05-12 00:00:00+00:00,binancecoin,BNB,long,0.72,"Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+2026-05-13 00:00:00+00:00,binancecoin,BNB,long,0.7,"Recent daily returns and sentiment score indicate a bullish trend, despite a slight decrease in volume and a negative 1-day return."
+2026-05-14 00:00:00+00:00,binancecoin,BNB,long,0.72,"Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+2026-05-15 00:00:00+00:00,binancecoin,BNB,long,0.7,"Recent 7-day return and bullish sentiment score indicate a positive trend, supporting a long position."
+2026-05-16 00:00:00+00:00,binancecoin,BNB,long,0.7,Recent daily returns and increasing volume trend suggest a bullish outlook for BNB over the next 1-3 days.
+2026-05-17 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a potential downturn in BNB's price over the next 1-3 days.
+2026-05-18 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a likely downward movement in BNB price over the next 1-3 days.
+2026-05-19 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-05-20 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-05-21 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent returns and sentiment score indicate bearish momentum, suggesting a short position."
+2026-05-22 00:00:00+00:00,binancecoin,BNB,short,0.7,The recent bearish sentiment score and decreasing volume trend suggest a potential downward movement in BNB's price.
+2026-05-23 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-05-24 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-05-25 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-05-26 00:00:00+00:00,binancecoin,BNB,long,0.7,Recent 7-day return and increasing volume trend indicate a bullish outlook for BNB.
+2026-05-27 00:00:00+00:00,binancecoin,BNB,long,0.7,Recent 7-day return and increasing volume trend suggest a bullish outlook for BNB over the next 1-3 days.
+2026-05-28 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-05-29 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and negative returns over the last 7 days indicate a potential downward trend for BNB.
+2026-05-30 00:00:00+00:00,binancecoin,BNB,short,0.6,"Recent daily returns and 7-day return are mostly negative, indicating a bearish trend."
+2026-05-31 00:00:00+00:00,binancecoin,BNB,long,0.8,Recent strong bullish sentiment and increasing volume trend suggest a continued upward movement in BNB price.
+2026-06-01 00:00:00+00:00,binancecoin,BNB,long,0.8,Recent 7-day return and strongly bullish sentiment score indicate a positive outlook for BNB.
+2026-06-02 00:00:00+00:00,binancecoin,BNB,long,0.7,Recent 7-day return and increasing volume trend indicate bullish momentum despite short-term volatility.
+2026-06-03 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-04 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-05 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-06 00:00:00+00:00,binancecoin,BNB,short,0.7,The strongly bearish sentiment score and recent negative daily returns suggest a continued downward trend for BNB.
+2026-06-07 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-08 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-09 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent daily returns and strongly bearish sentiment score indicate a likely downward trend over the next 1-3 days.
+2026-06-10 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent daily returns and strongly bearish sentiment score indicate a likely downward trend for BNB over the next 1-3 days.
+2026-06-11 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-12 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-06-13 00:00:00+00:00,binancecoin,BNB,long,0.62,"The recent 7-day return and bullish sentiment score suggest a positive outlook for BNB, despite decreasing volume trend."
+2026-06-14 00:00:00+00:00,binancecoin,BNB,long,0.7,"The recent 7-day return and bullish sentiment score suggest a positive outlook for BNB, despite decreasing volume trend."
+2026-06-15 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-06-16 00:00:00+00:00,binancecoin,BNB,long,0.7,Recent 7-day return and increasing volume trend suggest a bullish outlook for BNB.
+2026-06-17 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-06-18 00:00:00+00:00,binancecoin,BNB,long,0.62,Recent 7-day return and increasing volume trend suggest a bullish outlook for BNB.
+2026-06-19 00:00:00+00:00,binancecoin,BNB,short,0.7,Strongly bearish sentiment and recent negative returns suggest a continued downward trend for BNB.
+2026-06-20 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-21 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in BNB price.
+2026-06-22 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in BNB price.
+2026-06-23 00:00:00+00:00,binancecoin,BNB,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward move in BNB price over the next 1-3 days.
+2026-06-24 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-25 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-26 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-27 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-06-28 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-06-29 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-06-30 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent bearish sentiment and negative 7-day return suggest caution, but increasing volume trend and moderate volatility warrant a neutral stance."
+2026-07-01 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-07-02 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-07-03 00:00:00+00:00,binancecoin,BNB,long,0.62,Recent 1-day return and increasing volume trend suggest a potential upward movement in BNB price.
+2026-07-04 00:00:00+00:00,binancecoin,BNB,long,0.62,"Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume, suggesting a potential upward movement."
+2026-07-05 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-07-06 00:00:00+00:00,binancecoin,BNB,long,0.8,"Recent returns and increasing volume trend indicate strong bullish momentum, supported by a strongly bullish sentiment score."
+2026-07-07 00:00:00+00:00,binancecoin,BNB,long,0.72,"Recent 7-day return and increasing volume trend indicate bullish momentum, supported by a positive sentiment score."
+2026-07-08 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and 7-day return indicate a mixed trend, making it uncertain to predict a clear direction."
+2026-07-09 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and 7-day return indicate mixed trends, making it uncertain to predict a clear direction."
+2026-07-10 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-07-11 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-07-12 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The neutral sentiment score and decreasing volume trend suggest uncertainty in the market, making it difficult to predict a clear direction."
+2026-07-13 00:00:00+00:00,binancecoin,BNB,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in BNB price.
+2026-07-14 00:00:00+00:00,binancecoin,BNB,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-07-15 00:00:00+00:00,binancecoin,BNB,long,0.7,Recent 1-day return and increasing volume trend suggest a potential upward movement in BNB price.
+2026-07-16 00:00:00+00:00,binancecoin,BNB,long,0.7,Recent 7-day return and increasing volume trend suggest a bullish outlook for BNB.
+2026-07-17 00:00:00+00:00,binancecoin,BNB,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-07-18 00:00:00+00:00,binancecoin,BNB,short,0.6,"Recent daily returns and 7-day return are negative, indicating a bearish trend."
+2026-07-18 00:00:00+00:00,binancecoin,BNB,short,0.6,"Recent daily returns and 7-day return are negative, indicating a bearish trend."
+2026-04-21 00:00:00+00:00,bitcoin,BTC,long,0.62,"The recent 1-day return and bullish sentiment score suggest a potential upward trend, despite decreasing volume and mixed daily returns."
+2026-04-22 00:00:00+00:00,bitcoin,BTC,long,0.7,"Recent 7-day return and sentiment score indicate a bullish trend, supporting a long position."
+2026-04-23 00:00:00+00:00,bitcoin,BTC,long,0.7,"Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+2026-04-24 00:00:00+00:00,bitcoin,BTC,long,0.7,"Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+2026-04-25 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and sentiment score indicate a neutral market, making it uncertain to predict a clear direction."
+2026-04-26 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent mixed daily returns and neutral sentiment score suggest uncertainty in the market, making it difficult to predict a clear direction."
+2026-04-27 00:00:00+00:00,bitcoin,BTC,long,0.7,"Recent 7-day return and sentiment score indicate a bullish trend, supporting a long position."
+2026-04-28 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and 7-day return indicate a slightly positive trend, but the decreasing volume and neutral sentiment score suggest uncertainty."
+2026-04-29 00:00:00+00:00,bitcoin,BTC,short,0.6,Recent daily returns and decreasing volume trend suggest a potential downturn in bitcoin price.
+2026-04-30 00:00:00+00:00,bitcoin,BTC,short,0.7,Bearish sentiment and recent negative returns suggest a continued downward trend.
+2026-05-01 00:00:00+00:00,bitcoin,BTC,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downturn in bitcoin's price over the next 1-3 days.
+2026-05-02 00:00:00+00:00,bitcoin,BTC,long,0.72,Recent sentiment score and increasing volume trend suggest a bullish outlook for bitcoin over the next 1-3 days.
+2026-05-03 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The neutral sentiment score and decreasing volume trend suggest uncertainty, making it difficult to predict a clear direction."
+2026-05-04 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and sentiment score indicate a neutral market, suggesting no strong direction over the next 1-3 days."
+2026-05-05 00:00:00+00:00,bitcoin,BTC,long,0.72,Recent 7-day return and increasing volume trend indicate a bullish momentum for bitcoin.
+2026-05-06 00:00:00+00:00,bitcoin,BTC,long,0.72,Recent 7-day return and increasing volume trend indicate bullish momentum.
+2026-05-07 00:00:00+00:00,bitcoin,BTC,long,0.8,"Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+2026-05-08 00:00:00+00:00,bitcoin,BTC,long,0.7,Recent daily returns and increasing volume trend suggest a bullish outlook for the next 1-3 days.
+2026-05-09 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The neutral sentiment score and decreasing volume trend suggest uncertainty, making it difficult to predict a clear direction."
+2026-05-10 00:00:00+00:00,bitcoin,BTC,long,0.7,"Recent daily returns and 7-day return indicate a positive trend, despite decreasing volume and neutral sentiment."
+2026-05-11 00:00:00+00:00,bitcoin,BTC,long,0.7,"Recent 7-day return and sentiment score indicate a bullish trend, supporting a long position."
+2026-05-12 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and 7-day return indicate a mixed trend, making it uncertain to predict a clear direction."
+2026-05-13 00:00:00+00:00,bitcoin,BTC,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downturn in bitcoin's price over the next 1-3 days.
+2026-05-14 00:00:00+00:00,bitcoin,BTC,short,0.7,Bearish sentiment and negative recent returns suggest a continued downward trend.
+2026-05-15 00:00:00+00:00,bitcoin,BTC,long,0.72,Recent sentiment score and increasing volume trend suggest a bullish outlook for bitcoin over the next 1-3 days.
+2026-05-16 00:00:00+00:00,bitcoin,BTC,hold,0.4,Mixed market signals with recent bearish sentiment and increasing volatility make it uncertain to predict a clear direction.
+2026-05-17 00:00:00+00:00,bitcoin,BTC,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a continuation of downward momentum.
+2026-05-18 00:00:00+00:00,bitcoin,BTC,short,0.7,Bearish sentiment and decreasing volume trend suggest a continuation of the downward trend.
+2026-05-19 00:00:00+00:00,bitcoin,BTC,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-05-20 00:00:00+00:00,bitcoin,BTC,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-05-21 00:00:00+00:00,bitcoin,BTC,short,0.6,"Recent daily returns and 7-day return are mostly negative, indicating a bearish trend."
+2026-05-22 00:00:00+00:00,bitcoin,BTC,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward movement in bitcoin price.
+2026-05-23 00:00:00+00:00,bitcoin,BTC,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-05-24 00:00:00+00:00,bitcoin,BTC,long,0.6,"Recent 1-day return is positive and volume trend is increasing, indicating potential for continued upward momentum."
+2026-05-25 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent mixed daily returns and neutral sentiment score indicate uncertainty in the market, making it difficult to predict a clear direction."
+2026-05-26 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-05-27 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent market data shows mixed signals with neutral sentiment and increasing volume, making it uncertain to predict a clear direction."
+2026-05-28 00:00:00+00:00,bitcoin,BTC,short,0.7,Bearish sentiment and recent negative returns suggest a continuation of the downward trend.
+2026-05-29 00:00:00+00:00,bitcoin,BTC,short,0.7,Recent bearish sentiment and negative returns over the last 7 days indicate a likely downward trend.
+2026-05-30 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-05-31 00:00:00+00:00,bitcoin,BTC,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in bitcoin price.
+2026-06-01 00:00:00+00:00,bitcoin,BTC,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-06-02 00:00:00+00:00,bitcoin,BTC,short,0.7,Recent bearish sentiment and negative returns suggest a continued downward trend.
+2026-06-03 00:00:00+00:00,bitcoin,BTC,short,0.8,Strongly bearish sentiment and recent downward trend suggest further price decline.
+2026-06-04 00:00:00+00:00,bitcoin,BTC,short,0.8,Strongly bearish sentiment and high recent losses indicate a likely continuation of the downward trend.
+2026-06-05 00:00:00+00:00,bitcoin,BTC,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-06 00:00:00+00:00,bitcoin,BTC,short,0.8,Strongly bearish sentiment and high recent losses indicate a likely continuation of the downward trend.
+2026-06-07 00:00:00+00:00,bitcoin,BTC,short,0.8,Strongly bearish sentiment and decreasing volume trend indicate a likely continuation of the downward price movement.
+2026-06-08 00:00:00+00:00,bitcoin,BTC,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-06-09 00:00:00+00:00,bitcoin,BTC,short,0.7,Strongly bearish sentiment and decreasing volume trend suggest a continuation of the downward trend.
+2026-06-10 00:00:00+00:00,bitcoin,BTC,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-06-11 00:00:00+00:00,bitcoin,BTC,short,0.7,Bearish sentiment and decreasing volume trend suggest a likely downward movement in bitcoin's price over the next 1-3 days.
+2026-06-12 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+2026-06-13 00:00:00+00:00,bitcoin,BTC,long,0.7,"The recent 7-day return is positive and the sentiment score is bullish, indicating a potential upward trend."
+2026-06-14 00:00:00+00:00,bitcoin,BTC,long,0.7,"Recent 7-day return and bullish sentiment score indicate a positive trend, despite decreasing volume."
+2026-06-15 00:00:00+00:00,bitcoin,BTC,long,0.72,"Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+2026-06-16 00:00:00+00:00,bitcoin,BTC,long,0.7,"Recent price action and increasing volume trend suggest a bullish outlook, supported by a positive sentiment score."
+2026-06-17 00:00:00+00:00,bitcoin,BTC,long,0.72,"Recent 7-day return and sentiment score indicate a bullish trend, despite decreasing volume and a slight 1-day return decline."
+2026-06-18 00:00:00+00:00,bitcoin,BTC,long,0.7,Recent 7-day return and increasing volume trend suggest a bullish outlook for the next 1-3 days.
+2026-06-19 00:00:00+00:00,bitcoin,BTC,short,0.6,Recent bearish sentiment and negative returns suggest a potential downward trend in the next 1-3 days.
+2026-06-20 00:00:00+00:00,bitcoin,BTC,short,0.6,Recent daily returns and increasing volatility suggest a potential downturn in bitcoin's price over the next 1-3 days.
+2026-06-21 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent mixed daily returns and neutral sentiment score indicate uncertainty in the market, making it difficult to predict a clear direction."
+2026-06-22 00:00:00+00:00,bitcoin,BTC,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in bitcoin price.
+2026-06-23 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent mixed daily returns and bearish sentiment score create uncertainty, making it difficult to predict a clear direction."
+2026-06-24 00:00:00+00:00,bitcoin,BTC,short,0.7,Recent bearish sentiment and negative daily returns suggest a continued downward trend for bitcoin.
+2026-06-25 00:00:00+00:00,bitcoin,BTC,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-26 00:00:00+00:00,bitcoin,BTC,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-27 00:00:00+00:00,bitcoin,BTC,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-06-28 00:00:00+00:00,bitcoin,BTC,short,0.7,Bearish sentiment and decreasing volume trend suggest a continuation of the downward trend.
+2026-06-29 00:00:00+00:00,bitcoin,BTC,short,0.7,Bearish sentiment and decreasing volume trend suggest a continuation of the downward trend.
+2026-06-30 00:00:00+00:00,bitcoin,BTC,short,0.7,Recent bearish sentiment and negative 7-day return suggest a continued downward trend.
+2026-07-01 00:00:00+00:00,bitcoin,BTC,short,0.7,Strongly bearish sentiment and recent negative daily returns suggest a continued downward trend.
+2026-07-02 00:00:00+00:00,bitcoin,BTC,long,0.62,"Recent 1-day return is positive and volume trend is increasing, indicating potential for continued upward momentum."
+2026-07-03 00:00:00+00:00,bitcoin,BTC,long,0.72,Recent price action and increasing volume trend suggest bullish momentum will continue over the next 1-3 days.
+2026-07-04 00:00:00+00:00,bitcoin,BTC,long,0.72,"Recent daily returns and sentiment score indicate a bullish trend, supporting a long position."
+2026-07-05 00:00:00+00:00,bitcoin,BTC,long,0.72,"Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume, suggesting a potential upward movement in the next 1-3 days."
+2026-07-06 00:00:00+00:00,bitcoin,BTC,long,0.7,"Recent 7-day return and sentiment score indicate a bullish trend, despite decreasing volume."
+2026-07-07 00:00:00+00:00,bitcoin,BTC,long,0.72,"Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+2026-07-08 00:00:00+00:00,bitcoin,BTC,long,0.72,"Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+2026-07-09 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and 7-day return indicate a mixed trend, making it uncertain to predict a clear direction."
+2026-07-10 00:00:00+00:00,bitcoin,BTC,long,0.7,"Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+2026-07-11 00:00:00+00:00,bitcoin,BTC,long,0.7,"Recent daily returns and sentiment score indicate a bullish trend, despite decreasing volume."
+2026-07-12 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and sentiment score indicate a neutral outlook, with decreasing volume trend adding to the uncertainty."
+2026-07-13 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+2026-07-14 00:00:00+00:00,bitcoin,BTC,short,0.7,Recent bearish sentiment and negative returns suggest a continued downward trend.
+2026-07-15 00:00:00+00:00,bitcoin,BTC,long,0.72,"Recent 1-day return and increasing volume trend suggest bullish momentum, supported by a moderately bullish sentiment score."
+2026-07-16 00:00:00+00:00,bitcoin,BTC,long,0.72,"Recent 7-day return and increasing volume trend indicate bullish momentum, supported by a positive sentiment score."
+2026-07-17 00:00:00+00:00,bitcoin,BTC,long,0.62,Recent daily returns and increasing volume trend suggest a potential upward movement in the next 1-3 days.
+2026-07-18 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and sentiment score indicate a neutral market, making it uncertain to predict a clear direction."
+2026-07-18 00:00:00+00:00,bitcoin,BTC,hold,0.4,"The recent daily returns and sentiment score indicate a neutral market, making it uncertain to predict a clear direction."
+2026-04-21 00:00:00+00:00,cardano,ADA,long,0.62,The recent 1-day return and bullish sentiment score suggest a potential upward trend for Cardano.
+2026-04-22 00:00:00+00:00,cardano,ADA,long,0.62,"The recent 7-day return and bullish sentiment score suggest a positive outlook for ADA, despite decreasing volume trend."
+2026-04-23 00:00:00+00:00,cardano,ADA,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-04-24 00:00:00+00:00,cardano,ADA,short,0.6,Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price over the next 1-3 days.
+2026-04-25 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price.
+2026-04-26 00:00:00+00:00,cardano,ADA,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-04-27 00:00:00+00:00,cardano,ADA,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-04-28 00:00:00+00:00,cardano,ADA,short,0.6,Bearish sentiment and decreasing volume trend suggest a potential downturn in ADA's price over the next 1-3 days.
+2026-04-29 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward move in ADA's price over the next 1-3 days.
+2026-04-30 00:00:00+00:00,cardano,ADA,short,0.6,"Recent daily returns and 7-day return are negative, indicating a bearish trend."
+2026-05-01 00:00:00+00:00,cardano,ADA,short,0.6,Bearish sentiment and decreasing volume trend suggest a potential downturn in ADA's price over the next 1-3 days.
+2026-05-02 00:00:00+00:00,cardano,ADA,hold,0.4,"The recent mixed daily returns and neutral sentiment score indicate uncertainty in the market, making it difficult to predict a clear direction."
+2026-05-03 00:00:00+00:00,cardano,ADA,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-05-04 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward move in ADA's price.
+2026-05-05 00:00:00+00:00,cardano,ADA,long,0.65,Recent daily returns and increasing volume trend suggest a potential upward movement in ADA's price over the next 1-3 days.
+2026-05-06 00:00:00+00:00,cardano,ADA,long,0.8,Recent returns and strongly bullish sentiment suggest a continued upward trend for ADA.
+2026-05-07 00:00:00+00:00,cardano,ADA,long,0.8,"Recent daily returns and sentiment score indicate a strongly bullish trend, suggesting a likely upward direction over the next 1-3 days."
+2026-05-08 00:00:00+00:00,cardano,ADA,long,0.72,"Recent daily returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+2026-05-09 00:00:00+00:00,cardano,ADA,long,0.8,Recent strong daily returns and high sentiment score indicate a bullish trend.
+2026-05-10 00:00:00+00:00,cardano,ADA,long,0.7,"Recent 7-day return and sentiment score indicate a bullish trend, despite decreasing volume and a slight 1-day return decline."
+2026-05-11 00:00:00+00:00,cardano,ADA,long,0.8,"Recent strong returns and increasing volume trend, combined with a strongly bullish sentiment score, suggest a continued upward momentum for ADA."
+2026-05-12 00:00:00+00:00,cardano,ADA,long,0.7,"Recent 7-day return and sentiment score indicate a bullish trend, despite decreasing volume and a slight 1-day return decline."
+2026-05-13 00:00:00+00:00,cardano,ADA,short,0.6,Recent daily returns and 7-day return indicate a potential reversal due to decreasing volume trend and neutral sentiment score.
+2026-05-14 00:00:00+00:00,cardano,ADA,hold,0.4,"The recent daily returns and sentiment score indicate a neutral outlook, making it uncertain to predict a clear direction over the next 1-3 days."
+2026-05-15 00:00:00+00:00,cardano,ADA,long,0.7,Recent 7-day return and increasing volume trend indicate a bullish momentum for Cardano.
+2026-05-16 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward move in ADA's price over the next 1-3 days.
+2026-05-17 00:00:00+00:00,cardano,ADA,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-05-18 00:00:00+00:00,cardano,ADA,short,0.7,The strongly bearish sentiment score and decreasing volume trend suggest a continued downward movement in ADA's price.
+2026-05-19 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and negative recent returns indicate a likely downward trend over the next 1-3 days.
+2026-05-20 00:00:00+00:00,cardano,ADA,short,0.7,"Recent daily returns and sentiment score indicate a strongly bearish trend, suggesting a short position."
+2026-05-21 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a likely downward movement in ADA's price over the next 1-3 days.
+2026-05-22 00:00:00+00:00,cardano,ADA,short,0.6,Bearish sentiment and negative recent returns suggest a continued downward trend for ADA.
+2026-05-23 00:00:00+00:00,cardano,ADA,short,0.7,The strongly bearish sentiment score and recent negative daily returns suggest a continued downward trend for ADA.
+2026-05-24 00:00:00+00:00,cardano,ADA,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-05-25 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a likely downward movement in ADA's price over the next 1-3 days.
+2026-05-26 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price over the next 1-3 days.
+2026-05-27 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and recent negative daily returns suggest a continued downward trend for ADA.
+2026-05-28 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and recent negative returns suggest a continued downward trend for ADA.
+2026-05-29 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and negative recent returns suggest a continued downward trend for ADA.
+2026-05-30 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-05-31 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a likely downward movement in ADA's price over the next 1-3 days.
+2026-06-01 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-06-02 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and negative recent returns suggest a continued downward trend for ADA.
+2026-06-03 00:00:00+00:00,cardano,ADA,short,0.8,Strongly bearish sentiment and recent negative returns indicate a likely continuation of the downtrend.
+2026-06-04 00:00:00+00:00,cardano,ADA,short,0.8,"Recent daily returns and sentiment score indicate a strong bearish trend, suggesting a short position."
+2026-06-05 00:00:00+00:00,cardano,ADA,short,0.8,Strongly bearish sentiment and high recent losses indicate a likely continuation of the downward trend.
+2026-06-06 00:00:00+00:00,cardano,ADA,short,0.8,Strongly bearish sentiment and high recent losses indicate a likely continuation of the downward trend.
+2026-06-07 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and high recent losses suggest continued downward momentum for ADA.
+2026-06-08 00:00:00+00:00,cardano,ADA,short,0.7,Recent daily returns and high 7-day realized volatility indicate a bearish trend.
+2026-06-09 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest continued downward momentum for ADA.
+2026-06-10 00:00:00+00:00,cardano,ADA,short,0.8,Strongly bearish sentiment and decreasing volume trend suggest continued downward momentum for ADA.
+2026-06-11 00:00:00+00:00,cardano,ADA,short,0.7,Strongly bearish sentiment and decreasing volume trend suggest continued downward momentum for ADA.
+2026-06-12 00:00:00+00:00,cardano,ADA,short,0.6,"Recent daily returns and 7-day return are mostly negative, indicating a bearish trend."
+2026-06-13 00:00:00+00:00,cardano,ADA,long,0.62,"The recent 7-day return and bullish sentiment score suggest a positive outlook, despite decreasing volume trend."
+2026-06-14 00:00:00+00:00,cardano,ADA,long,0.72,"Recent daily returns and 7-day return indicate a bullish trend, supported by a bullish sentiment score."
+2026-06-15 00:00:00+00:00,cardano,ADA,long,0.8,"Recent daily returns and sentiment score indicate a strongly bullish trend, suggesting a likely upward direction over the next 1-3 days."
+2026-06-16 00:00:00+00:00,cardano,ADA,long,0.72,Recent daily returns and increasing volume trend suggest a bullish outlook for Cardano.
+2026-06-17 00:00:00+00:00,cardano,ADA,short,0.6,"Recent daily returns show mixed signals, but decreasing volume trend and neutral sentiment score suggest a potential downturn."
+2026-06-18 00:00:00+00:00,cardano,ADA,hold,0.4,"The recent daily returns and sentiment score indicate a neutral outlook, with no clear trend emerging to warrant a long or short position."
+2026-06-19 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price over the next 1-3 days.
+2026-06-20 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-06-21 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price over the next 1-3 days.
+2026-06-22 00:00:00+00:00,cardano,ADA,short,0.7,Strongly bearish sentiment and decreasing volume trend indicate a likely downward movement in ADA's price over the next 1-3 days.
+2026-06-23 00:00:00+00:00,cardano,ADA,short,0.8,Strongly bearish sentiment and decreasing volume trend indicate a likely downward direction for ADA over the next 1-3 days.
+2026-06-24 00:00:00+00:00,cardano,ADA,short,0.8,Strongly bearish sentiment and consistently negative daily returns suggest a continued downward trend.
+2026-06-25 00:00:00+00:00,cardano,ADA,short,0.7,Strongly bearish sentiment and high recent losses suggest continued downward momentum for ADA.
+2026-06-26 00:00:00+00:00,cardano,ADA,short,0.8,Strongly bearish sentiment and high recent losses indicate a likely continuation of the downward trend.
+2026-06-27 00:00:00+00:00,cardano,ADA,long,0.62,"Recent 1-day return is positive and volume trend is increasing, suggesting potential for short-term upside."
+2026-06-28 00:00:00+00:00,cardano,ADA,short,0.8,Strongly bearish sentiment and decreasing volume trend indicate a likely continuation of the downward price movement.
+2026-06-29 00:00:00+00:00,cardano,ADA,short,0.7,Strongly bearish sentiment and decreasing volume trend indicate a likely downward movement in ADA's price over the next 1-3 days.
+2026-06-30 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward move in ADA's price over the next 1-3 days.
+2026-07-01 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-07-02 00:00:00+00:00,cardano,ADA,long,0.8,Recent 1-day return and strongly bullish sentiment score indicate a potential upward trend for ADA.
+2026-07-03 00:00:00+00:00,cardano,ADA,long,0.8,Recent price action and strongly bullish sentiment suggest continued upward momentum for ADA.
+2026-07-04 00:00:00+00:00,cardano,ADA,long,0.8,"Recent strong daily returns, increasing volume trend, and a strongly bullish sentiment score suggest a continued upward momentum for ADA."
+2026-07-05 00:00:00+00:00,cardano,ADA,long,0.8,"Recent strong price gains, increasing volume trend, and a strongly bullish sentiment score suggest continued upward momentum for ADA."
+2026-07-06 00:00:00+00:00,cardano,ADA,long,0.72,"Recent high returns and increasing volume trend, combined with a bullish sentiment score, suggest a continued upward momentum for ADA."
+2026-07-07 00:00:00+00:00,cardano,ADA,hold,0.4,Recent high returns and bullish sentiment are offset by decreasing volume trend and high volatility.
+2026-07-08 00:00:00+00:00,cardano,ADA,short,0.6,"Recent daily returns show a decline, and the 1-day return is negative, indicating a potential downward trend."
+2026-07-09 00:00:00+00:00,cardano,ADA,short,0.6,"Recent daily returns show a declining trend and increasing volatility, indicating a potential reversal in the upward momentum."
+2026-07-10 00:00:00+00:00,cardano,ADA,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+2026-07-11 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward movement in ADA's price over the next 1-3 days.
+2026-07-12 00:00:00+00:00,cardano,ADA,short,0.7,Strongly bearish sentiment and decreasing volume trend indicate a likely downward movement in ADA's price over the next 1-3 days.
+2026-07-13 00:00:00+00:00,cardano,ADA,short,0.8,Recent daily returns and strongly bearish sentiment score indicate a high likelihood of continued downward momentum for ADA.
+2026-07-14 00:00:00+00:00,cardano,ADA,short,0.8,Recent daily returns and strongly bearish sentiment score indicate a high likelihood of continued downward momentum for ADA.
+2026-07-15 00:00:00+00:00,cardano,ADA,short,0.6,"Recent daily returns and 7-day return are mostly negative, indicating a bearish trend."
+2026-07-16 00:00:00+00:00,cardano,ADA,long,0.62,Recent 1-day return and increasing volume trend suggest a potential upward movement for ADA.
+2026-07-17 00:00:00+00:00,cardano,ADA,short,0.7,Bearish sentiment and decreasing volume trend suggest a continuation of the downward price movement.
+2026-07-18 00:00:00+00:00,cardano,ADA,long,0.6,"Recent 1-day return is positive and volume trend is increasing, indicating potential for continued upward momentum."
+2026-07-18 00:00:00+00:00,cardano,ADA,long,0.6,"Recent 1-day return is positive and volume trend is increasing, indicating potential for continued upward momentum."
+2026-04-21 00:00:00+00:00,ethereum,ETH,long,0.62,"Recent 1-day return is positive and volume trend is increasing, indicating potential for continued upward momentum."
+2026-04-22 00:00:00+00:00,ethereum,ETH,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+2026-04-23 00:00:00+00:00,ethereum,ETH,long,0.72,"Recent daily returns and increasing volume trend indicate a bullish sentiment, supported by a positive sentiment score."
+2026-04-24 00:00:00+00:00,ethereum,ETH,long,0.62,"Recent daily returns show a mix of gains and losses, but increasing volume trend and neutral sentiment suggest a potential rebound."
+2026-04-25 00:00:00+00:00,ethereum,ETH,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downward move in ETH price.
+2026-04-26 00:00:00+00:00,ethereum,ETH,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in Ethereum's price.
+2026-04-27 00:00:00+00:00,ethereum,ETH,long,0.7,"Recent 7-day return and bullish sentiment score indicate a positive trend, supporting a long position."
+2026-04-28 00:00:00+00:00,ethereum,ETH,short,0.7,Recent bearish sentiment and decreasing volume trend suggest a potential downturn in Ethereum's price.
+2026-04-29 00:00:00+00:00,ethereum,ETH,short,0.62,Recent bearish sentiment and decreasing volume trend suggest a potential downward movement in Ethereum's price.
+2026-04-30 00:00:00+00:00,ethereum,ETH,short,0.7,Ethereum's recent bearish sentiment and negative 7-day return suggest a continued downward trend.
+2026-05-01 00:00:00+00:00,ethereum,ETH,short,0.7,"Recent daily returns and sentiment score indicate a bearish trend, suggesting a short position."
+2026-05-02 00:00:00+00:00,ethereum,ETH,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction."
+2026-05-03 00:00:00+00:00,ethereum,ETH,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+2026-05-04 00:00:00+00:00,ethereum,ETH,short,0.6,Bearish sentiment and decreasing volume trend suggest a potential downturn in Ethereum's price over the next 1-3 days.
+2026-05-05 00:00:00+00:00,ethereum,ETH,long,0.72,"Recent returns and increasing volume trend suggest a bullish outlook, supported by a positive sentiment score."
+2026-05-06 00:00:00+00:00,ethereum,ETH,long,0.72,"Recent returns and increasing volume trend indicate a bullish sentiment, supporting a long position."
+2026-05-07 00:00:00+00:00,ethereum,ETH,long,0.7,"Recent 7-day return and increasing volume trend indicate a bullish sentiment, supporting a long position."
+2026-05-08 00:00:00+00:00,ethereum,ETH,long,0.62,Recent daily returns and increasing volume trend suggest a potential bullish momentum for Ethereum.
+2026-05-09 00:00:00+00:00,ethereum,ETH,long,0.62,Recent daily returns and increasing volume trend suggest a potential upward movement in ETH price.
+2026-05-10 00:00:00+00:00,ethereum,ETH,hold,0.4,"The recent daily returns and sentiment score indicate a neutral trend, making it uncertain to predict a clear direction over the next 1-3 days."
+2026-05-11 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-12 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-13 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-14 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-15 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-16 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-17 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-18 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-19 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-20 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-21 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-22 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-23 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-24 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-25 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-26 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-27 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-28 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-29 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-30 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-05-31 00:00:00+00:00,ethereum,ETH,short,0.7,Bearish sentiment and decreasing volume trend suggest a potential downturn in Ethereum's price over the next 1-3 days.
+2026-06-01 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-02 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-03 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-04 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-05 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-06 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-07 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-08 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-09 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-10 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-11 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-12 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-13 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-14 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-15 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-16 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-17 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-18 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-19 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-20 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-21 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-22 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-23 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-24 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-25 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-26 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-27 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-28 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-29 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-06-30 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-01 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-02 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-03 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-04 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-05 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-06 00:00:00+00:00,ethereum,ETH,long,0.72,Recent daily returns and increasing volume trend indicate a bullish momentum for Ethereum.
+2026-07-07 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-08 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-09 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-10 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-11 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-12 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-13 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-14 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-15 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-16 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-17 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-18 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-07-18 00:00:00+00:00,ethereum,ETH,hold,0.0,parse_failure
+2026-04-21 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-04-22 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-04-23 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-04-24 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-04-25 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-04-26 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-04-27 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-04-28 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-04-29 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-04-30 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-01 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-02 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-03 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-04 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-05 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-06 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-07 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-08 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-09 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-10 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-11 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-12 00:00:00+00:00,solana,SOL,long,0.8,"Recent daily returns and sentiment score indicate a strongly bullish trend, suggesting a likely upward direction over the next 1-3 days."
+2026-05-13 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-14 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-15 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-16 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-17 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-18 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-19 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-20 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-21 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-22 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-23 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-24 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-25 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-26 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-27 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-28 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-29 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-30 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-05-31 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-01 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-02 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-03 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-04 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-05 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-06 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-07 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-08 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-09 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-10 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-11 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-12 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-13 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-14 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-15 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-16 00:00:00+00:00,solana,SOL,long,0.8,Recent price action and strongly bullish sentiment suggest continued upward momentum for SOL.
+2026-06-17 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-18 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-19 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-20 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-21 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-22 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-23 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-24 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-25 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-26 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-27 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-28 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-29 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-06-30 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-01 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-02 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-03 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-04 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-05 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-06 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-07 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-08 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-09 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-10 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-11 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-12 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-13 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-14 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-15 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-16 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-17 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-18 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
+2026-07-18 00:00:00+00:00,solana,SOL,hold,0.0,parse_failure
