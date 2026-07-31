@@ -5,6 +5,12 @@ set -e
 
 cd "$(dirname "$0")"
 
+if [ -f .env ]; then
+    set -a
+    source .env
+    set +a
+fi
+
 echo "=============================================="
 echo "  CryptoPulse RL — Full Pipeline Runner"
 echo "=============================================="
@@ -66,12 +72,24 @@ print('Evaluation complete.')
 echo ""
 echo "=============================================="
 echo "  Pipeline complete!"
-echo "  Figures: cryptopulse-rl/reports/figures/"
-echo "  Metrics: cryptopulse-rl/reports/metrics_summary.json"
+echo "  Figures: reports/figures/"
+echo "  Metrics: reports/metrics_summary.json"
 echo ""
 echo "  To start the API server:"
-echo "    python cryptopulse-rl/app/api/main.py"
+echo "    cd cryptopulse-rl && uvicorn app.api.main:app --reload"
+echo ""
+echo "  To run daily signal generation (backfill ALL missing dates):"
+echo "    python src/daily_signal_runner.py --backfill"
+echo ""
+echo "  To run daily signal generation (today only):"
+echo "    python src/daily_signal_runner.py"
+echo ""
+echo "  To view paper trading portfolio:"
+echo "    python src/paper_trade.py --show"
+echo ""
+echo "  To run one paper trading step:"
+echo "    python src/paper_trade.py"
 echo ""
 echo "  To run tests:"
-echo "    python -m pytest cryptopulse-rl/tests/test_pipeline.py -v"
+echo "    python -m pytest tests/test_pipeline.py -v"
 echo "=============================================="

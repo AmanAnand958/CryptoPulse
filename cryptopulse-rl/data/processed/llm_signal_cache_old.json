@@ -1,0 +1,1627 @@
+{
+  "binancecoin::2025-09-10": {
+    "direction": "long",
+    "confidence": 0.85,
+    "rationale": "Strong positive 1-day and 7-day returns, confirmed by increasing volume, indicate robust upward momentum despite neutral sentiment, suggesting further price appreciation."
+  },
+  "binancecoin::2025-09-15": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "BNB exhibits strong short-term bullish momentum with significant positive 1-day and 7-day returns, despite decreasing volume which suggests potential weakness in the rally's sustainability over a longer horizon."
+  },
+  "binancecoin::2025-09-20": {
+    "direction": "long",
+    "confidence": 0.88,
+    "rationale": "BNB shows strong recent positive returns, a significant 1-day surge of 13.49%, and increasing volume, which collectively signal robust upward momentum despite neutral sentiment."
+  },
+  "binancecoin::2025-09-25": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "BNB experienced a significant -9.38% one-day drop after a strong rally, likely indicating profit-taking and a potential short-term trend reversal amplified by increasing volume."
+  },
+  "binancecoin::2025-09-30": {
+    "direction": "short",
+    "confidence": 0.75,
+    "rationale": "Despite recent strong positive price action and high volatility, the decreasing volume trend indicates a weakening of buying pressure, suggesting the current upward momentum is unsustainable and a short-term pullback is likely."
+  },
+  "binancecoin::2025-10-05": {
+    "direction": "long",
+    "confidence": 0.75,
+    "rationale": "BNB exhibits strong short-term bullish momentum with a 15.75% 1-day return and 36.11% 7-day return, supported by increasing volume, indicating likely continued upward movement despite high realized volatility."
+  },
+  "binancecoin::2025-10-10": {
+    "direction": "long",
+    "confidence": 0.75,
+    "rationale": "Despite a recent daily retracement, the strong 7-day return of 29.68% combined with increasing volume points to robust underlying bullish momentum, likely leading to a continuation of the upward trend."
+  },
+  "binancecoin::2025-10-15": {
+    "direction": "long",
+    "confidence": 0.75,
+    "rationale": "Strong positive momentum over the 1-day and 7-day periods, supported by increasing volume, suggests a continuation of the uptrend despite high realized volatility."
+  },
+  "binancecoin::2025-10-20": {
+    "direction": "long",
+    "confidence": 0.75,
+    "rationale": "BNB exhibits strong 7-day positive momentum with a recent pullback occurring on decreasing volume, which typically signals a healthy consolidation within an uptrend and potential for continuation."
+  },
+  "binancecoin::2025-10-25": {
+    "direction": "short",
+    "confidence": 0.6,
+    "rationale": "The decreasing volume trend amidst high volatility and a positive 7-day return suggests waning buying conviction and potential exhaustion of the rally, favoring a short position."
+  },
+  "binancecoin::2025-10-30": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Despite a recent pullback, BNB shows strong 7-day momentum, and decreasing volume during the current dip suggests selling pressure is waning, potentially indicating a continuation of the uptrend."
+  },
+  "binancecoin::2025-11-04": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent 1-day return of -13.19% and 7-day return of -7.11% indicate a downward trend, while increasing volume and neutral sentiment suggest a potential short opportunity."
+  },
+  "binancecoin::2025-11-09": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return is positive, but the 7-day return is negative, and decreasing volume trend suggests a potential short-term reversal, warranting a short position with moderate confidence."
+  },
+  "binancecoin::2025-11-14": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in BNB price, coupled with decreasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "binancecoin::2025-11-19": {
+    "direction": "short",
+    "confidence": 0.75,
+    "rationale": "BNB exhibits a strong bearish trend with a significant -22.78% 7-day return and continued negative 1-day performance, suggesting further downside pressure despite decreasing volume."
+  },
+  "binancecoin::2025-11-24": {
+    "direction": "short",
+    "confidence": 0.8,
+    "rationale": "BNB exhibits strong bearish momentum with a 7-day return of -21.38% and a negative 1-day return amidst high volatility, suggesting a likely continuation of the downtrend despite decreasing volume."
+  },
+  "binancecoin::2025-11-29": {
+    "direction": "long",
+    "confidence": 0.75,
+    "rationale": "BNB is significantly oversold with a -21.82% 7-day return, and decreasing volume during the downtrend suggests selling pressure may be exhausting, indicating a likely short-term relief bounce."
+  },
+  "binancecoin::2025-12-04": {
+    "direction": "short",
+    "confidence": 0.7,
+    "rationale": "The significant 7-day decline combined with decreasing volume on the recent positive day suggests a weak bounce and potential for continued downward movement over the next few days."
+  },
+  "binancecoin::2025-12-09": {
+    "direction": "hold",
+    "confidence": 0.5,
+    "rationale": "Despite a negative 7-day return, decreasing volume alongside high volatility and neutral sentiment suggests weakening selling pressure and a lack of clear directional conviction for the next 1-3 days."
+  },
+  "binancecoin::2025-12-14": {
+    "direction": "short",
+    "confidence": 0.75,
+    "rationale": "BNB is in a strong short-term downtrend, evidenced by significant negative 1-day and 7-day returns, suggesting continued bearish pressure despite decreasing volume."
+  },
+  "binancecoin::2025-12-19": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Given the recent decline in BNB price and increasing volume, a short position is likely to be profitable over the next 1-3 days, but the neutral sentiment score and moderate volatility suggest some uncertainty."
+  },
+  "binancecoin::2025-12-24": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in BNB price, coupled with decreasing volume and negative returns over the past week, suggests a bearish trend, warranting a short position."
+  },
+  "binancecoin::2025-12-29": {
+    "direction": "hold",
+    "confidence": 0.5,
+    "rationale": "Conflicting signals including a negative 7-day return, positive 1-day return, decreasing volume, and neutral sentiment suggest a lack of clear directional momentum."
+  },
+  "binancecoin::2026-01-03": {
+    "direction": "hold",
+    "confidence": 0.6,
+    "rationale": "Despite a strong recent 1-day positive return, the decreasing volume trend on this upward move suggests weakening buying conviction, leading to uncertainty for sustained momentum."
+  },
+  "binancecoin::2026-01-08": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Recent strong positive daily returns suggest a short-term bounce after a slightly negative 7-day performance, with decreasing volume possibly indicating a lull in selling pressure."
+  },
+  "binancecoin::2026-01-13": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent increase in volume and positive daily returns over the past week, despite some volatility, suggest a potential upward trend in Binancecoin."
+  },
+  "binancecoin::2026-01-18": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Recent 7-day return is positive and 1-day return is negative, indicating a potential short-term bounce in BNB price."
+  },
+  "binancecoin::2026-01-23": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return of -4.38% and decreasing volume trend, combined with a 7-day return of 4.14% that may be due for a correction, suggest a short-term bearish trend."
+  },
+  "binancecoin::2026-01-28": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Recent 7-day return is positive and 1-day return is also positive, indicating a potential uptrend, but decreasing volume trend and negative 4-day return may indicate caution."
+  },
+  "binancecoin::2026-02-02": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent sharp decline in 1-day return and increasing 7-day realized volatility suggest a potential short-term downtrend in BNB price."
+  },
+  "binancecoin::2026-02-07": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in BNB price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "binancecoin::2026-02-12": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in BNB price, coupled with decreasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "binancecoin::2026-02-17": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 7-day return of -34.54% and decreasing volume trend suggest a bearish trend, while the 1-day return of 0.56% indicates a potential short-term bounce, but overall sentiment remains neutral."
+  },
+  "binancecoin::2026-02-22": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in BNB price, coupled with decreasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "binancecoin::2026-02-27": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in BNB's price, coupled with decreasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "binancecoin::2026-03-04": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 7.16% 1-day return and increasing volume trend suggest a potential short-term uptrend, despite the 7-day return being negative."
+  },
+  "binancecoin::2026-03-09": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "Recent daily returns have been predominantly negative, with a 7-day return of -18.00%, indicating a potential downtrend in Binancecoin."
+  },
+  "binancecoin::2026-03-14": {
+    "direction": "long",
+    "confidence": 0.55,
+    "rationale": "Recent 1-day return is positive, and 7-day return is slightly positive, indicating a potential short-term upward trend, despite decreasing volume and recent volatility."
+  },
+  "binancecoin::2026-03-19": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns show a downtrend, with a 1-day return of -2.82% and a 7-day return of 4.05%, indicating a potential reversal in the short term."
+  },
+  "binancecoin::2026-03-24": {
+    "direction": "hold",
+    "confidence": 0.4,
+    "rationale": "Recent price movements are mixed, with a 7-day return of 3.33% but a 1-day return of -0.13%, indicating a need for caution before making a trade decision."
+  },
+  "binancecoin::2026-03-29": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return of -5.05% and decreasing volume trend, combined with a neutral sentiment score, suggest a potential short-term downtrend in BNB."
+  },
+  "binancecoin::2026-04-03": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in BNB price, coupled with decreasing volume and negative returns over the last 7 days, suggests a potential short-term downtrend."
+  },
+  "binancecoin::2026-04-08": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent increase in volume and 1-day return, combined with a neutral sentiment score, suggests a potential long opportunity despite the 7-day return being negative."
+  },
+  "binancecoin::2026-04-13": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Recent 2.25% daily return and increasing volume trend suggest a potential short-term uptrend in BNB, despite the 7-day negative return."
+  },
+  "binancecoin::2026-04-18": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Recent daily returns show a slight upward trend, and increasing volume supports a potential continuation of this trend, despite the 7-day return being negative."
+  },
+  "binancecoin::2026-04-23": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Recent daily returns show a slight upward trend, and the 1-day return is positive, indicating a potential short-term bounce in BNB price."
+  },
+  "binancecoin::2026-04-28": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns have been negative, and decreasing volume trend suggests a potential downtrend continuation, warranting a short position with moderate confidence."
+  },
+  "binancecoin::2026-05-03": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a negative 1-day return, suggest a short-term bearish trend in Binancecoin."
+  },
+  "binancecoin::2026-05-08": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent increase in volume and positive 1-7 day returns, despite some volatility, suggest a potential uptrend in BNB price over the next 1-3 days."
+  },
+  "binancecoin::2026-05-13": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "Strong recent price momentum and increasing volume suggest a continuation of the upward trend, but the recent negative return and neutral sentiment score temper the confidence in this direction."
+  },
+  "binancecoin::2026-05-18": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent 1-day return of -4.19% and increasing volume trend suggest a potential short-term downtrend in BNB, despite a relatively high 7-day return and neutral sentiment score."
+  },
+  "binancecoin::2026-05-23": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decrease in volume and negative 1-day return, combined with a high 7-day realized volatility, suggest a potential short-term downturn in BNB price."
+  },
+  "binancecoin::2026-05-28": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent 1-day return of -2.75% and 7-day return of -0.05% indicate a bearish trend, while increasing volume and neutral sentiment support a short position."
+  },
+  "binancecoin::2026-06-02": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Recent 1-day return and 7-day return are positive, and volume trend is increasing, indicating a potential uptrend in Binancecoin."
+  },
+  "binancecoin::2026-06-07": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return of -7.11% and 7-day return of -2.08% indicate a downward trend, while the increasing volume trend and bearish sentiment score support a short position."
+  },
+  "binancecoin::2026-06-12": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in BNB's price, coupled with decreasing volume and a negative 1-day return, suggests a short-term bearish trend."
+  },
+  "binancecoin::2026-06-17": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in BNB price, coupled with increasing volatility and a negative 1-day return, suggests a short-term bearish trend."
+  },
+  "binancecoin::2026-06-22": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in BNB price, coupled with decreasing volume and negative returns over the past week, suggests a bearish trend, warranting a short position."
+  },
+  "binancecoin::2026-06-27": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in BNB price, coupled with decreasing volume and negative returns over the past week, suggests a bearish trend, warranting a short position."
+  },
+  "binancecoin::2026-07-02": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in BNB's price, coupled with decreasing volume and a negative 7-day return, suggests a short-term bearish trend."
+  },
+  "binancecoin::2026-07-07": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in BNB's price, coupled with decreasing volume and a negative 7-day return, suggests a bearish trend, warranting a short position."
+  },
+  "binancecoin::2026-07-12": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in BNB price, coupled with decreasing volume and a negative 1-day return, suggests a short-term bearish trend, warranting a short position with moderate confidence."
+  },
+  "binancecoin::2026-07-17": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in BNB price, coupled with increasing volatility and a negative 7-day return, suggests a short-term bearish trend."
+  },
+  "binancecoin::2026-07-22": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in BNB's price, coupled with decreasing volume and negative 7-day return, suggests a short-term bearish trend."
+  },
+  "binancecoin::2026-07-27": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in BNB price, coupled with decreasing volume and a negative 1-day return, suggests a short-term bearish trend."
+  },
+  "bitcoin::2025-09-10": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent increase in volume and 1-day return, combined with a neutral sentiment score, suggests a potential short-term upward trend in Bitcoin price."
+  },
+  "bitcoin::2025-09-15": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 7-day return, combined with a decreasing trend in daily returns, suggest a potential short-term downtrend in BTC price."
+  },
+  "bitcoin::2025-09-20": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 7-day return, combined with a decreasing trend in daily returns, suggests a bearish market sentiment and potential short-term price drop."
+  },
+  "bitcoin::2025-09-25": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and increasing 1-day return suggest a bearish trend, while neutral sentiment and increasing volume indicate a potential short-term reversal, but the overall trend is still bearish."
+  },
+  "bitcoin::2025-09-30": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent increase in volume and positive 1-day return, combined with a neutral sentiment score, suggest a potential upward trend in the next 1-3 days."
+  },
+  "bitcoin::2025-10-05": {
+    "direction": "long",
+    "confidence": 0.73,
+    "rationale": "The recent increase in volume and positive 1- and 7-day returns, combined with a neutral sentiment score, suggest a potential upward trend in the next 1-3 days."
+  },
+  "bitcoin::2025-10-10": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return of -8.67% and increasing volume trend suggest a potential short-term downtrend, despite a neutral sentiment score and relatively low 7-day realized volatility."
+  },
+  "bitcoin::2025-10-15": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in 1-day and 7-day returns, combined with increasing volatility and a negative 1-day return, suggests a short-term bearish trend."
+  },
+  "bitcoin::2025-10-20": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 1-day return, combined with a 7-day return of -4.18%, suggest a bearish trend, warranting a short position."
+  },
+  "bitcoin::2025-10-25": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 7-day return, combined with a neutral sentiment score, suggest a potential short-term downtrend in Bitcoin."
+  },
+  "bitcoin::2025-10-30": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and increasing volatility suggest a potential short-term downtrend, despite the neutral sentiment score and increasing volume trend."
+  },
+  "bitcoin::2025-11-04": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in 1-day and 7-day returns, coupled with increasing volatility and a negative 1-day return, suggests a short-term bearish trend."
+  },
+  "bitcoin::2025-11-09": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and 7-day return, combined with a high 7-day realized volatility, suggests a potential short-term downtrend in BTC price."
+  },
+  "bitcoin::2025-11-14": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in 1-day and 7-day returns, coupled with increasing volume and neutral sentiment, suggests a potential short-term downtrend in Bitcoin."
+  },
+  "bitcoin::2025-11-19": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in price and increasing volume trend suggest a potential short-term downtrend, with a 62% confidence level based on the current market data."
+  },
+  "bitcoin::2025-11-24": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and significant 7-day losses, coupled with high realized volatility, suggest a bearish trend, warranting a short position."
+  },
+  "bitcoin::2025-11-29": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 7-day return, combined with a high 7-day realized volatility, suggest a potential short-term downtrend in BTC price."
+  },
+  "bitcoin::2025-12-04": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in volume and negative 7-day return, combined with a high 7-day realized volatility, suggests a potential short-term downtrend in BTC price."
+  },
+  "bitcoin::2025-12-09": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 7-day return, combined with a decreasing trend in daily returns, suggests a bearish trend, warranting a short position."
+  },
+  "bitcoin::2025-12-14": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a low sentiment score and high 7-day realized volatility, suggest a bearish trend over the next 1-3 days."
+  },
+  "bitcoin::2025-12-19": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a neutral sentiment score, suggest a potential short-term downtrend in Bitcoin."
+  },
+  "bitcoin::2025-12-24": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a neutral sentiment score, suggest a potential short-term downtrend in Bitcoin."
+  },
+  "bitcoin::2025-12-29": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and increasing volatility suggest a potential short-term downtrend, supported by a neutral sentiment score and decreasing 7-day return."
+  },
+  "bitcoin::2026-01-03": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume trend and negative 7-day return, combined with a decreasing trend in daily returns, suggest a potential short-term downtrend in Bitcoin."
+  },
+  "bitcoin::2026-01-08": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent increase in volume and positive 1-day return, despite a slightly negative 7-day return, suggest a potential short-term upward trend in Bitcoin price."
+  },
+  "bitcoin::2026-01-13": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent increase in volume and positive 1-day return, combined with a neutral sentiment score, suggest a potential upward trend in the next 1-3 days."
+  },
+  "bitcoin::2026-01-18": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a negative 1-day return, suggest a short-term bearish trend, but the 7-day return remains positive, indicating some uncertainty."
+  },
+  "bitcoin::2026-01-23": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in 1-day returns and decreasing volume trend, combined with a neutral sentiment score, suggest a potential short-term bearish trend."
+  },
+  "bitcoin::2026-01-28": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 1-day return, combined with a decreasing trend in daily returns, suggest a potential short-term downtrend in Bitcoin."
+  },
+  "bitcoin::2026-02-02": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in 1-day return and increasing volatility suggest a potential short-term downtrend, despite neutral sentiment and increasing volume."
+  },
+  "bitcoin::2026-02-07": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "bitcoin::2026-02-12": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in 7-day return and increasing volume trend suggest a potential short-term downtrend, warranting a short position with moderate confidence."
+  },
+  "bitcoin::2026-02-17": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in 7-day return and decreasing volume trend suggest a potential continuation of the downtrend, warranting a short position."
+  },
+  "bitcoin::2026-02-22": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in price and decreasing volume trend suggest a potential continuation of the downtrend, warranting a short position with moderate confidence."
+  },
+  "bitcoin::2026-02-27": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in price and decreasing volume trend suggest a potential continuation of the downtrend, warranting a short position with moderate confidence."
+  },
+  "bitcoin::2026-03-04": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 10.31% 1-day return and increasing volume trend suggest a potential short-term upward momentum, despite the negative 7-day return and high realized volatility."
+  },
+  "bitcoin::2026-03-09": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent increase in volume and positive daily return suggest a potential reversal from the recent downtrend, despite the overall negative 7-day return."
+  },
+  "bitcoin::2026-03-14": {
+    "direction": "short",
+    "confidence": 0.63,
+    "rationale": "The recent decline in volume and 7-day realized volatility, combined with a 1-day return that is not strong enough to reverse the downtrend, suggests a short-term bearish trend."
+  },
+  "bitcoin::2026-03-19": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a 7-day return that is not strong enough to offset the losses, suggest a short-term bearish trend."
+  },
+  "bitcoin::2026-03-24": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent 10.31% daily return and 4.52% 7-day return suggest a potential uptrend, despite decreasing volume and a neutral sentiment score."
+  },
+  "bitcoin::2026-03-29": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a negative 1-day return and low sentiment score, suggest a bearish trend over the next 1-3 days."
+  },
+  "bitcoin::2026-04-03": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative daily returns over the past week, particularly the last two days, suggest a potential short-term downtrend in BTC."
+  },
+  "bitcoin::2026-04-08": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume trend and 7-day realized volatility, combined with a negative 7-day return and a recent 1-day return that is not strong enough to reverse the trend, suggests a short-term bearish trend."
+  },
+  "bitcoin::2026-04-13": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent increase in volume and positive 1-day return, combined with a neutral sentiment score, suggest a potential upward trend in the next 1-3 days."
+  },
+  "bitcoin::2026-04-18": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Recent positive daily returns and increasing 7-day return suggest a potential uptrend, despite decreasing volume and neutral sentiment."
+  },
+  "bitcoin::2026-04-23": {
+    "direction": "long",
+    "confidence": 0.73,
+    "rationale": "The recent increase in 7-day return and volume trend, combined with a neutral sentiment score, suggests a potential upward trend in the next 1-3 days."
+  },
+  "bitcoin::2026-04-28": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent 1-day return of -2.45% and decreasing volume trend, combined with a 7-day return of 8.20% which may be a correction, suggest a potential short-term downtrend."
+  },
+  "bitcoin::2026-05-03": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent 7-day return of 19.02% and 2.92% 1-day return suggest a potential continuation of the upward trend, despite decreasing volume and neutral sentiment."
+  },
+  "bitcoin::2026-05-08": {
+    "direction": "long",
+    "confidence": 0.73,
+    "rationale": "The recent 7-day return of 19.76% and increasing volume trend suggest a strong upward momentum, while the neutral sentiment score and moderate 7-day realized volatility of 2.47% indicate a potential for continued growth."
+  },
+  "bitcoin::2026-05-13": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent 7-day return is positive, and the 1-day return is negative, indicating a potential short-term correction, but the increasing volume trend and neutral sentiment score suggest a possible long opportunity."
+  },
+  "bitcoin::2026-05-18": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return of -2.91% and decreasing trend over the last 7 days, combined with increasing volatility, suggests a potential short-term downtrend."
+  },
+  "bitcoin::2026-05-23": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and increasing volatility suggest a potential short-term downtrend, despite the overall positive 7-day return."
+  },
+  "bitcoin::2026-05-28": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and increasing volatility suggest a potential short-term downtrend, warranting a short position with moderate confidence."
+  },
+  "bitcoin::2026-06-02": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "bitcoin::2026-06-07": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in price and increasing volume trend suggest a potential short-term bearish trend continuation, despite neutral sentiment."
+  },
+  "bitcoin::2026-06-12": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in volume and 7-day return, combined with a high 7-day realized volatility, suggests a potential short-term downtrend in BTC price."
+  },
+  "bitcoin::2026-06-17": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in price and decreasing volume trend suggest a potential continuation of the downtrend, warranting a short position with moderate confidence."
+  },
+  "bitcoin::2026-06-22": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Given the recent significant decline in 7-day returns and decreasing volume trend, a short position is likely to be profitable over the next 1-3 days."
+  },
+  "bitcoin::2026-06-27": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in BTC price, coupled with decreasing volume and negative returns over the past week, suggests a bearish trend, warranting a short position."
+  },
+  "bitcoin::2026-07-02": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in 7-day returns and increasing volume trend suggest a potential short-term downtrend, despite the 1-day return indicating a possible bounce."
+  },
+  "bitcoin::2026-07-07": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent 1-day return is positive, and 7-day return is negative, indicating a potential short-term rebound, but decreasing volume and neutral sentiment suggest caution."
+  },
+  "bitcoin::2026-07-12": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns show a slight upward trend, and the 1-day return is positive, indicating a potential short-term bounce in the market."
+  },
+  "bitcoin::2026-07-17": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Increasing volume trend and moderate 7-day return suggest a potential upward momentum, despite recent volatility and negative daily returns."
+  },
+  "bitcoin::2026-07-22": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent increase in volume and positive 1-day return, combined with a neutral sentiment score, suggest a potential upward trend in the next 1-3 days."
+  },
+  "bitcoin::2026-07-27": {
+    "direction": "short",
+    "confidence": 0.63,
+    "rationale": "Recent sharp decline in daily returns and decreasing volume trend suggest a potential short-term downtrend, despite a neutral sentiment score."
+  },
+  "cardano::2025-09-10": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent surge in 7-day returns and 1-day return, combined with decreasing volume, suggests a potential continuation of the upward trend, but caution is advised due to the neutral sentiment score and recent volatility."
+  },
+  "cardano::2025-09-15": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "Recent 1-day return is negative and 7-day return is positive, indicating a potential reversal, while increasing volume and neutral sentiment support this short-term bearish trend."
+  },
+  "cardano::2025-09-20": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decrease in volume and negative 7-day return, combined with a slightly positive 1-day return, suggest a potential short-term reversal in ADA's upward trend."
+  },
+  "cardano::2025-09-25": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent sharp decline in ADA price and increasing volume trend suggest a potential short-term downtrend, despite neutral sentiment score."
+  },
+  "cardano::2025-09-30": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and 7-day realized volatility, combined with a negative 7-day return and a significant 1-day loss, suggests a bearish trend, warranting a short position."
+  },
+  "cardano::2025-10-05": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent increase in volume and positive 1-day return, combined with a neutral sentiment score, suggest a potential upward trend in the next 1-3 days."
+  },
+  "cardano::2025-10-10": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent 1-day return of -24.11% and 7-day return of -23.52% indicate a strong downward trend, supported by increasing volume and a neutral sentiment score, suggesting a potential short opportunity."
+  },
+  "cardano::2025-10-15": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in ADA's price, coupled with decreasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "cardano::2025-10-20": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and significant 7-day return suggest a bearish trend, while the 1-day return indicates a potential short-term bounce, but overall sentiment remains neutral."
+  },
+  "cardano::2025-10-25": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "Recent sharp decline in ADA price, coupled with decreasing volume and negative 1-day return, suggests a potential short-term downtrend."
+  },
+  "cardano::2025-10-30": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent price action indicates a downtrend, with a 7-day return of -21.23% and decreasing volume, suggesting a potential continuation of the downward momentum."
+  },
+  "cardano::2025-11-04": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in ADA price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "cardano::2025-11-09": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent high volatility and decreasing volume trend, combined with a significant 7-day return drop, suggest a potential short-term downtrend in ADA."
+  },
+  "cardano::2025-11-14": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in ADA price, coupled with decreasing volume and a negative 1-day return, suggests a short-term bearish trend."
+  },
+  "cardano::2025-11-19": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in ADA price, coupled with decreasing volume and a negative 1-day return, suggests a bearish trend, warranting a short position."
+  },
+  "cardano::2025-11-24": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in ADA price, coupled with decreasing volume and high realized volatility, suggests a bearish trend, warranting a short position."
+  },
+  "cardano::2025-11-29": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in ADA price, coupled with decreasing volume and negative returns over the last week, suggests a bearish trend, warranting a short position."
+  },
+  "cardano::2025-12-04": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent price action has been volatile with a 7-day return of -26.96%, and the decreasing volume trend suggests a potential continuation of the downtrend."
+  },
+  "cardano::2025-12-09": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 6.90% daily return and increasing volume trend suggest a potential short-term upward momentum in ADA, despite the negative 7-day return."
+  },
+  "cardano::2025-12-14": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "Recent sharp decline in ADA price and decreasing volume trend suggest a potential short-term downtrend, despite a neutral sentiment score."
+  },
+  "cardano::2025-12-19": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in ADA's price, coupled with decreasing volume and a negative 1-day return, suggests a short-term bearish trend."
+  },
+  "cardano::2025-12-24": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in ADA's price, coupled with decreasing volume and a negative 7-day return, suggests a bearish trend, warranting a short position."
+  },
+  "cardano::2025-12-29": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in ADA price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "cardano::2026-01-03": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return is positive, but the 7-day return is negative, and decreasing volume trend suggests a potential reversal, indicating a short trade with moderate confidence."
+  },
+  "cardano::2026-01-08": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent price action has been volatile, with a 7-day return of -9.97% and decreasing volume, suggesting a potential short-term downtrend."
+  },
+  "cardano::2026-01-13": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent positive daily returns and increasing volume trend suggest a potential upward momentum, despite the 7-day negative return and neutral sentiment score."
+  },
+  "cardano::2026-01-18": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns have been predominantly negative, with a 1-day return of -10.91%, indicating a potential downtrend in the short term."
+  },
+  "cardano::2026-01-23": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a negative 1-day return, suggest a short-term downtrend in ADA."
+  },
+  "cardano::2026-01-28": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a negative 1-day return, suggest a short-term downtrend in ADA."
+  },
+  "cardano::2026-02-02": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in ADA price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "cardano::2026-02-07": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in ADA's price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "cardano::2026-02-12": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in ADA price, coupled with decreasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "cardano::2026-02-17": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and 7-day return, combined with a neutral sentiment score, suggests a potential short-term downtrend in ADA."
+  },
+  "cardano::2026-02-22": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in ADA price, coupled with decreasing volume and a negative 7-day return, suggests a bearish trend, warranting a short position."
+  },
+  "cardano::2026-02-27": {
+    "direction": "short",
+    "confidence": 0.63,
+    "rationale": "The recent decline in ADA price, coupled with decreasing volume and a negative 7-day return, suggests a short-term bearish trend, but the recent 2.17% 1-day return indicates some potential for a short-term bounce."
+  },
+  "cardano::2026-03-04": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent significant price drops and increasing volatility suggest a potential short-term downtrend, despite a slight increase in volume and neutral sentiment."
+  },
+  "cardano::2026-03-09": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns have been negative, with a 7-day return of -14.68%, indicating a potential downtrend, and decreasing volume trend supports this sentiment."
+  },
+  "cardano::2026-03-14": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns have been mostly negative, and the 7-day return is down, indicating a bearish trend, but the 1-day return is positive, suggesting a potential short-term bounce, requiring caution."
+  },
+  "cardano::2026-03-19": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent positive daily returns and increasing 1-day return suggest a potential uptrend, despite decreasing volume and high realized volatility."
+  },
+  "cardano::2026-03-24": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 1-day return, combined with a decreasing trend over the past week, suggest a bearish sentiment and potential short-term price drop."
+  },
+  "cardano::2026-03-29": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in ADA price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "cardano::2026-04-03": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and significant losses over the past week, coupled with a high 7-day realized volatility, suggest a potential short-term downtrend in ADA."
+  },
+  "cardano::2026-04-08": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 7-day return, combined with a high 7-day realized volatility, suggest a potential short-term downtrend in ADA."
+  },
+  "cardano::2026-04-13": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in ADA price, coupled with increasing volume and neutral sentiment, suggests a potential short-term downtrend."
+  },
+  "cardano::2026-04-18": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 7-day return, combined with a decreasing trend in daily returns, suggest a bearish trend, warranting a short position."
+  },
+  "cardano::2026-04-23": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent increase in volume and slight rebound in daily returns, despite a negative 7-day return, suggests a potential short-term upward trend in ADA price."
+  },
+  "cardano::2026-04-28": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in ADA price, coupled with decreasing volume and negative returns over the past week, suggests a bearish trend, warranting a short position."
+  },
+  "cardano::2026-05-03": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in volume trend and increasing 7-day realized volatility, combined with a negative 1-day return, suggest a potential short-term downtrend in ADA price."
+  },
+  "cardano::2026-05-08": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Strong short-term momentum and decreasing volume suggest a potential continuation of the upward trend, but caution is advised due to the neutral sentiment score and moderate volatility."
+  },
+  "cardano::2026-05-13": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent 1-day return of -3.15% and increasing volume trend suggest a potential short-term downtrend in ADA, despite the 7-day return of 5.58% indicating a longer-term uptrend."
+  },
+  "cardano::2026-05-18": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return of -4.98% and increasing volume trend suggest a potential short-term downtrend, despite the 7-day return being slightly positive."
+  },
+  "cardano::2026-05-23": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in 1-day and 7-day returns, combined with increasing volatility and a negative 1-day return, suggests a short-term downward trend in ADA price."
+  },
+  "cardano::2026-05-28": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in ADA price, coupled with increasing volatility and a negative 1-day return, suggests a short-term bearish trend."
+  },
+  "cardano::2026-06-02": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in ADA price, coupled with increasing volume and bearish sentiment, suggests a potential short-term downtrend."
+  },
+  "cardano::2026-06-07": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in ADA price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "cardano::2026-06-12": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in ADA price, coupled with increasing volume and high 7-day realized volatility, suggests a potential short-term downtrend."
+  },
+  "cardano::2026-06-17": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in ADA price, coupled with bearish sentiment and increasing volatility, suggests a short-term downtrend continuation."
+  },
+  "cardano::2026-06-22": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in ADA price, coupled with decreasing volume and a negative 7-day return, suggests a short-term bearish trend, warranting a short position."
+  },
+  "cardano::2026-06-27": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in ADA price, coupled with decreasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "cardano::2026-07-02": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in ADA price, coupled with decreasing volume and a negative 7-day return, suggests a potential short-term downtrend."
+  },
+  "cardano::2026-07-07": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent 1-day return is positive and 11.15% daily gain suggests a potential reversal from the recent downtrend, but decreasing volume and negative 7-day return indicate caution."
+  },
+  "cardano::2026-07-12": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a negative 1-day return, suggest a short-term bearish trend in ADA."
+  },
+  "cardano::2026-07-17": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent increase in volume and bullish sentiment score, combined with a moderate 1-day return and a relatively low 7-day realized volatility, suggest a potential long opportunity in ADA."
+  },
+  "cardano::2026-07-22": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Bearish sentiment and decreasing volume trend, combined with recent negative daily returns, suggest a short-term downtrend in ADA."
+  },
+  "cardano::2026-07-27": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "Recent sharp decline in ADA price (-10.83% in 1 day) and decreasing volume trend suggest a potential short-term downtrend, despite a neutral sentiment score."
+  },
+  "ethereum::2025-09-10": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent 7-day return of 18.08% and 1-day return of 0.97% suggest a strong upward trend, while decreasing volume and neutral sentiment score indicate potential for a short-term correction, but overall the bullish momentum prevails."
+  },
+  "ethereum::2025-09-15": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Ethereum's recent positive returns and decreasing volatility suggest a potential continuation of the upward trend, but the decreasing volume trend and neutral sentiment score temper the confidence in this signal."
+  },
+  "ethereum::2025-09-20": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 1-day return, combined with a neutral sentiment score, suggest a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2025-09-25": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in ETH price, combined with increasing volume and neutral sentiment, suggests a potential short-term bearish trend continuation."
+  },
+  "ethereum::2025-09-30": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 7-day return, combined with a high 7-day realized volatility, suggest a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2025-10-05": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Ethereum's recent 8.91% daily return and 6.99% gain from the previous day's low, combined with decreasing volume and neutral sentiment, suggest a potential short-term upward trend."
+  },
+  "ethereum::2025-10-10": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent 1-day return of -15.17% and 7-day return of -11.09% indicate a downward trend, supported by increasing volume and a neutral sentiment score, suggesting a short position is likely over the next 1-3 days."
+  },
+  "ethereum::2025-10-15": {
+    "direction": "long",
+    "confidence": 0.63,
+    "rationale": "The recent increase in volume and positive 1-day return, despite a negative 7-day return, suggests a potential short-term upward trend in Ethereum."
+  },
+  "ethereum::2025-10-20": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in 7-day return and increasing volatility, combined with a decreasing volume trend, suggests a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2025-10-25": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative returns over the last week, combined with a decreasing trend, suggest a bearish sentiment and potential for further price drops."
+  },
+  "ethereum::2025-10-30": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a neutral sentiment score, suggest a short-term bearish trend, but the 7-day return and realized volatility indicate some stability."
+  },
+  "ethereum::2025-11-04": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in 1-day and 7-day returns, coupled with increasing volatility, suggests a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2025-11-09": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and 7-day return, combined with a high 7-day realized volatility, suggests a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2025-11-14": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in ETH price, coupled with increasing volume and high realized volatility, suggests a short-term bearish trend, warranting a short position."
+  },
+  "ethereum::2025-11-19": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in price and decreasing volume trend, combined with a negative 1-day return and low sentiment score, suggest a short-term bearish trend."
+  },
+  "ethereum::2025-11-24": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in Ethereum's price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "ethereum::2025-11-29": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in price and decreasing volume trend, combined with a negative 7-day return and high 7-day realized volatility, suggest a short-term bearish trend."
+  },
+  "ethereum::2025-12-04": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent price action indicates a downtrend, with 7-day return showing a significant decline, and decreasing volume trend supporting bearish sentiment."
+  },
+  "ethereum::2025-12-09": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent 1-day return is positive and 7-day return is slightly positive, indicating a potential short-term upward trend, despite decreasing volume and recent volatility."
+  },
+  "ethereum::2025-12-14": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "Ethereum's recent price drop and decreasing volume trend, combined with a negative 1-day return and low sentiment score, suggest a short-term bearish trend."
+  },
+  "ethereum::2025-12-19": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Ethereum's recent price decline and decreasing volume trend suggest a potential short-term downtrend, supported by a sentiment score indicating neutral market sentiment."
+  },
+  "ethereum::2025-12-24": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a neutral sentiment score, suggest a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2025-12-29": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and increasing volatility suggest a potential short-term downtrend in Ethereum, warranting a short position with moderate confidence."
+  },
+  "ethereum::2026-01-03": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Ethereum's recent daily returns and 1-day return indicate a potential upward trend, supported by a decreasing sentiment score and moderate 7-day realized volatility."
+  },
+  "ethereum::2026-01-08": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "Recent price action has been volatile, with a 7-day return of -0.85% and decreasing volume, suggesting a potential short-term downtrend."
+  },
+  "ethereum::2026-01-13": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent increase in volume and 1-day return, combined with a neutral sentiment score, suggests a potential upward trend in the next 1-3 days."
+  },
+  "ethereum::2026-01-18": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Ethereum's recent 7-day return of 7.20% and increasing daily returns suggest a potential uptrend, despite the recent 1-day decline of -1.26%."
+  },
+  "ethereum::2026-01-23": {
+    "direction": "short",
+    "confidence": 0.63,
+    "rationale": "The recent sharp decline in 1-day return and decreasing volume trend, combined with a neutral sentiment score, suggest a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2026-01-28": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in price and decreasing volume trend, combined with a high 7-day realized volatility, suggest a potential short-term sell-off in Ethereum."
+  },
+  "ethereum::2026-02-02": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in 1-day return and increasing volatility suggest a potential short-term downtrend in Ethereum, warranting a short position with moderate confidence."
+  },
+  "ethereum::2026-02-07": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2026-02-12": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in Ethereum's price, coupled with decreasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "ethereum::2026-02-17": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in volume and 7-day return, combined with a high 7-day realized volatility, suggests a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2026-02-22": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in Ethereum's price, coupled with decreasing volume and a negative 7-day return, suggests a short-term bearish trend."
+  },
+  "ethereum::2026-02-27": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in price and decreasing volume trend, combined with a high 7-day return and low sentiment score, suggest a short-term bearish trend."
+  },
+  "ethereum::2026-03-04": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 10.23% 1-day return and increasing volume trend suggest a potential short-term upward momentum, despite the 7-day return being negative."
+  },
+  "ethereum::2026-03-09": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "Ethereum's recent price decline and decreasing volume trend suggest a potential short-term downtrend, supported by a sentiment score indicating neutral market sentiment."
+  },
+  "ethereum::2026-03-14": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Ethereum's recent 5.18% daily return and 10.23% gain in the previous week, combined with decreasing volume and neutral sentiment, suggest a potential short-term upward trend."
+  },
+  "ethereum::2026-03-19": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Ethereum's recent 1-day return and 7-day return are positive, and the 7-day realized volatility is relatively low, suggesting a potential short-term upward trend."
+  },
+  "ethereum::2026-03-24": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Ethereum's recent 7-day return of 8.26% and 1-day return of 0.86% suggest a potential continuation of the upward trend, despite decreasing volume and neutral sentiment."
+  },
+  "ethereum::2026-03-29": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return of -7.96% and decreasing volume trend suggest a potential short-term downtrend in Ethereum, outweighing the neutral sentiment score and slightly positive 7-day return."
+  },
+  "ethereum::2026-04-03": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume trend and 7-day realized volatility, combined with a negative 1-day return, suggests a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2026-04-08": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Ethereum's recent daily returns show a mix of positive and negative days, but the 1-day return is strong and the volume trend is increasing, suggesting a potential upward trend over the next 1-3 days."
+  },
+  "ethereum::2026-04-13": {
+    "direction": "long",
+    "confidence": 0.73,
+    "rationale": "The recent 8.19% 1-day return and increasing volume trend, combined with a 7-day return of 18.89%, suggest a strong upward momentum in Ethereum, warranting a long position."
+  },
+  "ethereum::2026-04-18": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and 1-day return, combined with a 7-day return that is not sustainable, suggests a potential short-term correction in Ethereum's price."
+  },
+  "ethereum::2026-04-23": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent 1-day return is negative and the 7-day return is positive, indicating a potential reversal, while the increasing volume trend and neutral sentiment score support this short-term bearish outlook."
+  },
+  "ethereum::2026-04-28": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a negative 1-day return, suggest a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2026-05-03": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Ethereum's recent 7-day return of 17.03% and 1-day return of 1.45% suggest a potential continuation of the upward trend, despite decreasing volume and recent negative daily returns."
+  },
+  "ethereum::2026-05-08": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in 1-day return and increasing volatility, combined with a neutral sentiment score, suggests a potential short-term correction in Ethereum's price."
+  },
+  "ethereum::2026-05-13": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in 1-day return and decreasing volume trend, combined with a neutral sentiment score, suggest a potential short-term downtrend in Ethereum."
+  },
+  "ethereum::2026-05-18": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in 1-day and 7-day returns, coupled with increasing volume and neutral sentiment, suggests a short-term bearish trend."
+  },
+  "ethereum::2026-05-23": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in price and increasing volume trend suggest a potential short-term downtrend, but the neutral sentiment score and relatively low volatility temper the confidence in this signal."
+  },
+  "ethereum::2026-05-28": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in ETH price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "ethereum::2026-06-02": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in ETH price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "ethereum::2026-06-07": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in ETH price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "ethereum::2026-06-12": {
+    "direction": "short",
+    "confidence": 0.73,
+    "rationale": "Ethereum's recent sharp decline and decreasing volume trend suggest a potential short-term continuation of the downtrend, warranting a short position with moderate confidence."
+  },
+  "ethereum::2026-06-17": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in Ethereum's price, coupled with decreasing volume and a negative 7-day return, suggests a short-term bearish trend, warranting a short position."
+  },
+  "ethereum::2026-06-22": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in price and decreasing volume trend, combined with a high 7-day return and low sentiment score, suggest a potential short opportunity."
+  },
+  "ethereum::2026-06-27": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in Ethereum's price, coupled with decreasing volume and a negative 7-day return, suggests a short-term bearish trend."
+  },
+  "ethereum::2026-07-02": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 8.04% daily return and increasing volume trend suggest a potential short-term upward momentum in Ethereum, despite the negative 7-day return and high realized volatility."
+  },
+  "ethereum::2026-07-07": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "Recent 1-day return is positive, and the 7-day return is negative, indicating a potential short-term rebound in the market."
+  },
+  "ethereum::2026-07-12": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Ethereum's recent 2.00% daily return and 6.88% 7-day return, combined with decreasing volume and neutral sentiment, suggest a potential short-term uptrend."
+  },
+  "ethereum::2026-07-17": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Ethereum's recent 1-day return of 1.94% and 7-day return of 10.53% indicate a potential upward trend, despite decreasing volume and neutral sentiment."
+  },
+  "ethereum::2026-07-22": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Ethereum's recent price increase and rising volume trend suggest a potential continuation of the upward momentum, despite the recent volatility."
+  },
+  "ethereum::2026-07-27": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "Ethereum's recent price action shows a mix of positive and negative returns, but the overall 7-day return is positive and sentiment score is bullish, indicating a potential long opportunity."
+  },
+  "solana::2025-09-10": {
+    "direction": "long",
+    "confidence": 0.72,
+    "rationale": "Strong recent price momentum and increasing volume trend suggest a continued upward trend in SOL, despite a slight pullback in the last 5 days."
+  },
+  "solana::2025-09-15": {
+    "direction": "long",
+    "confidence": 0.73,
+    "rationale": "Strong recent price momentum and increasing volume trend suggest a continuation of the upward trend in Solana, despite neutral sentiment."
+  },
+  "solana::2025-09-20": {
+    "direction": "long",
+    "confidence": 0.73,
+    "rationale": "The recent 7-day return of 26.31% and 1-day return of 2.21% suggest a strong upward trend, while decreasing volume and neutral sentiment score indicate potential for continued growth."
+  },
+  "solana::2025-09-25": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return of -19.52% and increasing volume trend suggest a potential short-term downtrend, despite the 7-day return being positive and sentiment score being neutral."
+  },
+  "solana::2025-09-30": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in daily returns and decreasing volume trend, combined with high 7-day realized volatility, suggest a potential short-term sell-off in SOL."
+  },
+  "solana::2025-10-05": {
+    "direction": "long",
+    "confidence": 0.73,
+    "rationale": "Strong recent price momentum and decreasing volume suggest a continuation of the upward trend, but the significant drop in the previous week indicates potential volatility."
+  },
+  "solana::2025-10-10": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return of -17.56% and 7-day return of -7.34% indicate a downward trend, while increasing volume and neutral sentiment suggest a potential short-term sell-off."
+  },
+  "solana::2025-10-15": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent increase in volume and 1-day return, combined with a neutral sentiment score, suggests a potential short-term upward trend in SOL."
+  },
+  "solana::2025-10-20": {
+    "direction": "short",
+    "confidence": 0.63,
+    "rationale": "The recent decline in SOL price, coupled with decreasing volume and a negative 1-day return, suggests a bearish trend, warranting a short position."
+  },
+  "solana::2025-10-25": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with decreasing volume and a negative 7-day return, suggests a bearish trend, warranting a short position."
+  },
+  "solana::2025-10-30": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "solana::2025-11-04": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with increasing volatility and a negative 1-day return, suggests a potential short-term downtrend."
+  },
+  "solana::2025-11-09": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume trend and 7-day return, combined with a neutral sentiment score, suggests a potential short-term downtrend in SOL."
+  },
+  "solana::2025-11-14": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "solana::2025-11-19": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in SOL price, coupled with decreasing volume and a negative 1-day return, suggests a potential short-term downtrend."
+  },
+  "solana::2025-11-24": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in 7-day return and increasing volume trend suggest a potential short-term downtrend, despite the 1-day return indicating a minor bounce."
+  },
+  "solana::2025-11-29": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with decreasing volume and a negative 1-day return, suggests a bearish trend, warranting a short position."
+  },
+  "solana::2025-12-04": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in SOL price, coupled with decreasing volume and a negative 7-day return, suggests a potential short-term downtrend."
+  },
+  "solana::2025-12-09": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with decreasing volume and a negative 1-day return, suggests a short-term bearish trend, warranting a short position with moderate confidence."
+  },
+  "solana::2025-12-14": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in SOL price, coupled with decreasing volume and a negative 1-day return, suggests a bearish trend, warranting a short position."
+  },
+  "solana::2025-12-19": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with increasing volume and neutral sentiment, suggests a potential short-term downtrend."
+  },
+  "solana::2025-12-24": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with decreasing volume and a negative 1-day return, suggests a bearish trend, warranting a short position."
+  },
+  "solana::2025-12-29": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in 7-day return and increasing volatility suggest a potential short-term downtrend in Solana, warranting a short position with moderate confidence."
+  },
+  "solana::2026-01-03": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and 7-day return, combined with a high 1-day return, suggests a potential short-term reversal in SOL's price, warranting a short position with moderate confidence."
+  },
+  "solana::2026-01-08": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent increase in volume and 3.75% 1-day return, combined with a neutral sentiment score, suggest a potential upward trend in SOL price over the next 1-3 days."
+  },
+  "solana::2026-01-13": {
+    "direction": "long",
+    "confidence": 0.73,
+    "rationale": "The recent increase in volume and positive 1-day return, combined with a neutral sentiment score, suggest a potential upward trend in SOL price over the next 1-3 days."
+  },
+  "solana::2026-01-18": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns have been mostly negative, and the 1-day return is also negative, indicating a potential downtrend, but the 7-day return is positive, suggesting some caution is needed."
+  },
+  "solana::2026-01-23": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in SOL price, coupled with decreasing volume and a negative 1-day return, suggests a potential short-term downtrend."
+  },
+  "solana::2026-01-28": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a 7-day return that is not strong enough to offset the losses, suggest a short-term bearish trend."
+  },
+  "solana::2026-02-02": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in SOL price, coupled with increasing volume and high realized volatility, suggests a potential short-term bearish trend continuation."
+  },
+  "solana::2026-02-07": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in SOL price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "solana::2026-02-12": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in SOL price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "solana::2026-02-17": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in SOL price, coupled with decreasing volume and a negative 7-day return, suggests a potential short-term downtrend."
+  },
+  "solana::2026-02-22": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in SOL price, coupled with decreasing volume and a negative 1-day return, suggests a potential short-term downtrend."
+  },
+  "solana::2026-02-27": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in SOL price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "solana::2026-03-04": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent 11.00% 1-day return and increasing volume trend suggest a potential short-term upward momentum in SOL, despite the negative 7-day return."
+  },
+  "solana::2026-03-09": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with decreasing volume and a negative 1-day return, suggests a bearish trend, warranting a short position."
+  },
+  "solana::2026-03-14": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent daily returns show a mixed trend, but the 1-day return is positive, indicating a potential short-term reversal, while the decreasing volume trend and neutral sentiment score suggest caution."
+  },
+  "solana::2026-03-19": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 7-day return of 13.38% and 1-day return of 0.98% suggest a potential continuation of the upward trend, despite decreasing volume and recent volatility."
+  },
+  "solana::2026-03-24": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent 2.15% daily return and 6.72% 7-day return suggest a potential uptrend, despite decreasing volume and neutral sentiment."
+  },
+  "solana::2026-03-29": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in SOL price (-10.31% in 1 day) and decreasing volume trend suggest a potential short-term downtrend, despite a neutral sentiment score."
+  },
+  "solana::2026-04-03": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a negative 1-day return and 7-day return, suggest a bearish trend, warranting a short position."
+  },
+  "solana::2026-04-08": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume trend and 7-day return, combined with a high 7-day realized volatility, suggests a potential short opportunity in Solana."
+  },
+  "solana::2026-04-13": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent 4.77% 1-day return and 2.70% return from yesterday, combined with a decreasing volume trend, suggest a potential short-term upward trend in SOL price."
+  },
+  "solana::2026-04-18": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in volume and negative 1-day return, combined with a 7-day return of -2.12%, suggest a potential short-term downtrend in Solana."
+  },
+  "solana::2026-04-23": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent decline in 7-day return and increasing volatility suggest a potential short-term downtrend in Solana, despite a neutral sentiment score and increasing volume trend."
+  },
+  "solana::2026-04-28": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with decreasing volume and a negative 1-day return, suggests a bearish trend, warranting a short position."
+  },
+  "solana::2026-05-03": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in daily returns and decreasing volume trend, combined with a neutral sentiment score, suggest a potential short-term downtrend in Solana."
+  },
+  "solana::2026-05-08": {
+    "direction": "long",
+    "confidence": 0.7,
+    "rationale": "The recent increase in volume and 1-day return, combined with a neutral sentiment score, suggests a potential upward trend in SOL price over the next 1-3 days."
+  },
+  "solana::2026-05-13": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent 9.65% daily return and increasing volume trend suggest a strong upward momentum, despite the -0.91% 1-day return, indicating a potential long opportunity."
+  },
+  "solana::2026-05-18": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent 1-day return of -6.35% and 7-day return of -1.31% indicate a downward trend, while increasing volume and neutral sentiment suggest a potential short-term sell-off."
+  },
+  "solana::2026-05-23": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 9.65% daily return and increasing volume trend suggest a potential upward momentum in Solana, despite the recent volatility and negative 7-day return."
+  },
+  "solana::2026-05-28": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with decreasing volume and negative returns over the last 7 days, suggests a bearish trend, warranting a short position."
+  },
+  "solana::2026-06-02": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in SOL price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "solana::2026-06-07": {
+    "direction": "short",
+    "confidence": 0.65,
+    "rationale": "The recent sharp decline in SOL price, coupled with increasing volume and high realized volatility, suggests a potential short-term downtrend."
+  },
+  "solana::2026-06-12": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 7-day return of -27.38% and decreasing trend in daily returns suggest a bearish trend, while increasing volume and neutral sentiment score indicate potential for further price movement."
+  },
+  "solana::2026-06-17": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent sharp decline in SOL price, coupled with decreasing volume and a negative 7-day return, suggests a potential short-term downtrend."
+  },
+  "solana::2026-06-22": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with decreasing volume and a negative 7-day return, suggests a bearish trend, warranting a short position."
+  },
+  "solana::2026-06-27": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent decline in SOL price, coupled with decreasing volume and negative returns over the past week, suggests a bearish trend, warranting a short position."
+  },
+  "solana::2026-07-02": {
+    "direction": "long",
+    "confidence": 0.62,
+    "rationale": "The recent 14.51% 1-day return and increasing volume trend suggest a potential short-term upward momentum in SOL, despite the negative 7-day return."
+  },
+  "solana::2026-07-07": {
+    "direction": "hold",
+    "confidence": 0.35,
+    "rationale": "The recent price action shows mixed signals, with a 7-day return of 8.55% but a 1-day return of -0.19%, indicating a need for caution before making a trade decision."
+  },
+  "solana::2026-07-12": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "Recent daily returns show a downward trend, and the 1-day return is negative, indicating a potential short-term sell-off in SOL."
+  },
+  "solana::2026-07-17": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return of -2.44% and decreasing volume trend, combined with a 7-day return of 12.30% and high 7-day realized volatility of 6.01%, suggest a potential short-term reversal in Solana's price."
+  },
+  "solana::2026-07-22": {
+    "direction": "long",
+    "confidence": 0.65,
+    "rationale": "The recent increase in 7-day return and 1-day return, combined with a neutral sentiment score, suggests a potential upward trend in Solana's price over the next 1-3 days."
+  },
+  "solana::2026-07-27": {
+    "direction": "short",
+    "confidence": 0.62,
+    "rationale": "The recent 1-day return of -4.84% and decreasing volume trend, combined with a neutral sentiment score, suggest a potential short-term downtrend in SOL."
+  }
+}

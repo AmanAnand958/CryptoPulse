@@ -128,6 +128,15 @@ def health():
     )
 
 
+COIN_TICKERS = {
+    "bitcoin": "BTC",
+    "ethereum": "ETH",
+    "solana": "SOL",
+    "binancecoin": "BNB",
+    "cardano": "ADA",
+}
+
+
 @app.get("/api/signals", response_model=list[Signal])
 def get_signals():
     """
@@ -150,7 +159,7 @@ def get_signals():
         if coin not in by_coin or date_str > by_coin[coin]["date"]:
             by_coin[coin] = {
                 "coin": coin,
-                "symbol": coin[:3].upper(),
+                "symbol": COIN_TICKERS.get(coin.lower(), coin[:3].upper()),
                 "date": date_str,
                 **signal,
             }

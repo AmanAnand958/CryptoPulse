@@ -10,3 +10,14 @@ uvicorn==0.30.1
 python-dotenv==1.0.1
 pytest==8.3.1
 httpx==0.27.0
+
+# LangGraph multi-agent pipeline
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-groq>=0.2.0
+langchain-mcp-adapters>=0.1.0
+
+# Historical data collection (offline, separate from live pipeline)
+ccxt>=4.3.0
+pyarrow>=16.0.0

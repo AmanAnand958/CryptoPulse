@@ -7,10 +7,10 @@ Primary implementation: LinUCB (Linear Upper Confidence Bound)
   — implemented from scratch using numpy (no library black-box)
 
 WHY A BANDIT, NOT FULL MDP/PPO:
-  1. The decision being made is: "how much should I trust this LLM signal
-     right now?" — this is stateless per signal, not a sequential MDP.
-     A bandit models exactly this: pick an action (position multiplier)
-     conditional on a context (market state), observe a reward.
+  1. The decision being made is: "how much of my max allocation should I
+     deploy on this LLM signal right now?" — this is stateless per signal,
+     not a sequential MDP. A bandit models exactly this: pick an action
+     (allocation level) conditional on a context (market state), observe a reward.
   2. Crypto price series only weakly satisfy the Markov and stationarity
      assumptions that underpin full RL (value function decomposition,
      Bellman equations). A bandit makes no such assumptions.
@@ -21,16 +21,27 @@ WHY A BANDIT, NOT FULL MDP/PPO:
      hypothesis class is less prone to overfitting than a neural policy.
   PPO is included as a STRETCH EXTENSION clearly marked [secondary].
 
-Action space (5 discrete actions):
-  ACTIONS = [-1.0, -0.5, 0.0, 0.5, 1.0]
-  Each is a multiplier on the fixed max allocation (e.g., 20% of portfolio).
-  - Negative: go against the LLM signal (short)
-  - 0: ignore the signal entirely
-  - Positive: follow the LLM signal at partial or full allocation
+Action space — MEMORYLESS discrete allocation levels (section 4 of spec):
+  ACTIONS = [0.0, 0.25, 0.50, 1.0]
+  Each is a fraction of MAX_ALLOCATION (e.g. 0.25 → 25% of 20% = 5% of portfolio).
+  The bandit chooses fresh each period — holding duration is NOT encoded here.
+  Direction of the trade (long/short) is determined by the LLM signal, not the bandit.
 
-Reward:
-  r = (forward_return / realized_vol_forward) - tx_cost_penalty
-  where tx_cost_penalty = |Δposition| * TX_COST_RATE
+  RATIONALE FOR CHANGE (from old ±multiplier scheme):
+    The old ACTIONS = [-1.0, -0.5, 0.0, 0.5, 1.0] implicitly encoded
+    whether to follow or fade the signal AND how large a position to take.
+    Folding both choices into one action introduced state dependence
+    (what position am I currently in?) that the bandit assumption doesn't cover.
+    The new scheme separates concerns:
+      - LLM/supervisor decides DIRECTION (BUY/SELL/HOLD)
+      - Bandit decides ALLOCATION SIZE (0%, 25%, 50%, 100% of max)
+
+Reward — RISK-ADJUSTED, cost-aware (section 4 of spec):
+  r = Sharpe-like term - tx_cost_penalty
+    = (position_pnl / max(realized_vol, 0.001)) - |Δalloc| * TX_COST_RATE
+  Clipped to [-5, 5] to prevent reward outliers from dominating.
+  NOT raw PnL — the old reward was already risk-adjusted but now documented
+  clearly as a Sharpe numerator term.
 
 LinUCB Update Rule (documented):
   For each action arm a, maintain:
@@ -56,13 +67,19 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-ACTIONS = [-1.0, -0.5, 0.0, 0.5, 1.0]   # position multipliers
+
+# Memoryless discrete allocation levels (fraction of MAX_ALLOCATION).
+# 0.0 = sit out, 0.25 = quarter position, 0.50 = half position, 1.0 = full.
+# Direction (long/short) is determined by the LLM/supervisor signal, NOT here.
+ACTIONS = [0.0, 0.25, 0.50, 1.0]
 N_ACTIONS = len(ACTIONS)
+
 STATE_DIM = 9                              # must match features.py
 ALPHA = 1.0                               # LinUCB exploration parameter
 TX_COST_RATE = 0.001                      # 0.1% per unit position change
 MAX_ALLOCATION = 0.20                     # max 20% of portfolio per trade
 FORWARD_WINDOW = 14                       # days to evaluate reward
+ROLLING_VOL_WINDOW = 7                    # window for rolling vol in reward
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 POLICY_CHECKPOINT = BASE_DIR / "data" / "processed" / "policy_checkpoint.json"
@@ -82,9 +99,12 @@ class LinUCBBandit:
       - Low alpha  → more exploitation (trust current estimates)
 
     This is a disjoint model (not hybrid) — appropriate here because
-    the five position-size actions are qualitatively different from each
-    other (ignoring signal vs. following it vs. fading it), so sharing
-    parameters would misrepresent the problem structure.
+    the four allocation levels are qualitatively different from each
+    other (sit out vs. full position), so sharing parameters would
+    misrepresent the problem structure.
+
+    Arms are MEMORYLESS: each period's decision is independent of the
+    previous period's action. The bandit does NOT track holding duration.
     """
 
     def __init__(self, n_arms: int = N_ACTIONS, dim: int = STATE_DIM, alpha: float = ALPHA):
@@ -165,32 +185,64 @@ class LinUCBBandit:
 
 
 # ---------------------------------------------------------------------------
-# Reward computation
+# Reward computation — RISK-ADJUSTED, cost-aware (section 4 of spec)
 # ---------------------------------------------------------------------------
 
 def compute_reward(
-    action_multiplier: float,
+    allocation_fraction: float,
     llm_direction: str,
     forward_return: float,
     forward_vol: float,
-    prev_position: float,
+    prev_allocation: float,
 ) -> float:
     """
-    Compute the reward signal for a bandit update.
+    Compute the risk-adjusted reward signal for a bandit update.
 
-    The actual position taken = action_multiplier × sign(llm_direction) × MAX_ALLOCATION
-    (action_multiplier can be negative = fade the signal)
+    The bandit arm selects an ALLOCATION FRACTION (0.0, 0.25, 0.50, 1.0).
+    Direction (long/short) comes from the LLM signal.
 
-    Reward = Sharpe-like ratio minus transaction cost:
-      r = (position × forward_return / max(forward_vol, 0.001)) - tx_cost
+    Actual position = allocation_fraction × direction_sign × MAX_ALLOCATION
 
-    Clipped to [-5, 5] to prevent reward outliers from dominating.
+    Reward = Sharpe-like term - transaction cost:
+      r = (position × forward_return / max(realized_vol, 0.001)) - tx_cost
+
+    This is a rolling Sharpe numerator (not annualised) — adequate for
+    the bandit's per-period update. Long-run Sharpe is computed in evaluate.py.
+
+    Clipped to [-5, 5] to prevent outliers from dominating the A/b updates.
+
+    Parameters
+    ----------
+    allocation_fraction : float
+        Bandit arm value from ACTIONS, e.g. 0.25 = 25% of MAX_ALLOCATION.
+    llm_direction : str
+        "BUY"/"long", "SELL"/"short", or "HOLD"/"hold" from supervisor.
+    forward_return : float
+        Observed 1-day (or forward window) return.
+    forward_vol : float
+        Realized volatility over the same forward window.
+    prev_allocation : float
+        Previous period's allocation fraction (for tx cost calculation).
     """
-    direction_sign = {"long": 1.0, "short": -1.0, "hold": 0.0}.get(llm_direction, 0.0)
-    position = action_multiplier * direction_sign * MAX_ALLOCATION
+    # Normalise direction vocabulary (LLM uses BUY/SELL/HOLD, old code uses long/short/hold)
+    direction_map = {
+        "BUY": 1.0, "long": 1.0,
+        "SELL": -1.0, "short": -1.0,
+        "HOLD": 0.0, "hold": 0.0,
+    }
+    direction_sign = direction_map.get(llm_direction, 0.0)
+
+    # Actual position as fraction of portfolio
+    position = allocation_fraction * direction_sign * MAX_ALLOCATION
+
+    # Risk-adjusted PnL: Sharpe numerator per step
     pnl = position * forward_return
     risk_adj_pnl = pnl / max(forward_vol, 0.001)
-    tx_cost = abs(position - prev_position * MAX_ALLOCATION) * TX_COST_RATE
+
+    # Transaction cost from changing position size
+    prev_position = prev_allocation * direction_sign * MAX_ALLOCATION
+    tx_cost = abs(position - prev_position) * TX_COST_RATE
+
     reward = float(np.clip(risk_adj_pnl - tx_cost, -5, 5))
     return reward
 
@@ -206,24 +258,32 @@ def decide(
     training: bool = False,
 ) -> tuple[int, float]:
     """
-    Select an action using the bandit policy.
+    Select an allocation level using the bandit policy.
 
     Returns
     -------
-    (arm_index, position_multiplier)
-      arm_index         — index into ACTIONS list
-      position_multiplier — the actual multiplier value (e.g., 0.5)
+    (arm_index, allocation_fraction)
+      arm_index          — index into ACTIONS list
+      allocation_fraction — the fraction value (0.0, 0.25, 0.50, or 1.0)
+
+    Note: if llm_direction is HOLD, allocation is forced to 0.0 regardless
+    of the bandit's preference — the bandit sizes positions, not directions.
     """
+    # Force zero allocation when LLM says hold
+    direction_map = {"HOLD": True, "hold": True}
+    if direction_map.get(llm_direction, False):
+        return 0, 0.0  # arm 0 = 0% allocation
+
     arm = bandit.select_action(context)
-    multiplier = ACTIONS[arm]
+    allocation = ACTIONS[arm]
 
     # During training, occasionally force-explore by random action
     # (epsilon = 0.05 ensures the policy sees all arms during training)
     if training and np.random.random() < 0.05:
         arm = np.random.randint(0, N_ACTIONS)
-        multiplier = ACTIONS[arm]
+        allocation = ACTIONS[arm]
 
-    return arm, multiplier
+    return arm, allocation
 
 
 if __name__ == "__main__":
@@ -231,11 +291,16 @@ if __name__ == "__main__":
     np.random.seed(42)
     bandit = LinUCBBandit()
     ctx = np.random.randn(STATE_DIM)
-    arm, mult = decide(bandit, ctx, "long", training=True)
-    print(f"Selected arm={arm}, multiplier={mult}")
-    reward = compute_reward(mult, "long", 0.03, 0.025, 0.0)
+
+    arm, alloc = decide(bandit, ctx, "BUY", training=True)
+    print(f"Selected arm={arm}, allocation_fraction={alloc} ({alloc*100:.0f}% of MAX_ALLOC)")
+
+    reward = compute_reward(alloc, "BUY", 0.03, 0.025, 0.0)
     print(f"Reward: {reward:.4f}")
+
     bandit.update(arm, ctx, reward)
     print(f"Theta (arm {arm}): {bandit.get_theta(arm)}")
     bandit.save()
-    print("✓ LinUCB bandit OK")
+
+    print("\nActions (discrete allocation levels):", ACTIONS)
+    print("✓ LinUCB bandit OK — memoryless arms, risk-adjusted reward")

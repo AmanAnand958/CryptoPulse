@@ -11,14 +11,25 @@ CRITICAL: This is the ONLY validation methodology used.
 
 Tracked per step:
   - LLM signal (direction, confidence, rationale)
-  - Bandit action (arm index + position multiplier)
+  - Bandit action (arm index + allocation fraction)
   - Realized forward return
-  - Portfolio value (bandit, buy-and-hold, llm-only)
+  - Portfolio value (bandit, buy-and-hold, llm-only, meta-labeling)
   - Cumulative regret vs. oracle (perfect-foresight baseline)
 
 Oracle policy: always picks the action that would have maximized the
   forward return — used only as a reference ceiling, never claimed as
   achievable in live trading.
+
+Four strategies compared (spec section 6):
+  1. Buy-and-hold
+  2. LLM-only (fixed size, follows raw signal)
+  3. Meta-labeling baseline (supervised, López de Prado style)
+  4. Contextual bandit (LinUCB, memoryless discrete allocations)
+
+Backtesting data path:
+  This engine reads from data/historical/ (pre-built by historical_data_collector.py)
+  OR from data/processed/ (legacy CoinGecko path for backward compatibility).
+  The live Bright Data / MCP pipeline (agents/) is NEVER called here.
 """
 
 import numpy as np
@@ -31,6 +42,7 @@ from datetime import timedelta
 from features import build_state_vector, STATE_DIM
 from rl_policy import LinUCBBandit, ACTIONS, N_ACTIONS, MAX_ALLOCATION, TX_COST_RATE, decide, compute_reward
 from baselines import run_buy_and_hold, run_llm_only
+from meta_label_baseline import run_meta_label_baseline
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -127,12 +139,18 @@ def run_bandit_on_window(
             past_returns=past_returns,
         )
 
-        # Bandit decision
-        arm, multiplier = decide(bandit, state, direction, training=training)
+        # Bandit decision: returns (arm_index, allocation_fraction)
+        # allocation_fraction ∈ {0.0, 0.25, 0.50, 1.0} — memoryless discrete allocation
+        arm, allocation_fraction = decide(bandit, state, direction, training=training)
 
-        # Position: multiplier × direction × max_alloc
-        direction_sign = {"long": 1.0, "short": -1.0, "hold": 0.0}.get(direction, 0.0)
-        position = multiplier * direction_sign
+        # Position: allocation_fraction × direction × max_alloc
+        # Direction (long/short/hold) comes from LLM; bandit only sizes the allocation.
+        direction_sign = {
+            "long": 1.0, "buy": 1.0, "BUY": 1.0,
+            "short": -1.0, "sell": -1.0, "SELL": -1.0,
+            "hold": 0.0, "HOLD": 0.0,
+        }.get(direction, 0.0)
+        position = allocation_fraction * direction_sign
         alloc = position * MAX_ALLOCATION
 
         # P&L and transaction cost
@@ -140,9 +158,9 @@ def run_bandit_on_window(
         tx_cost = abs(alloc - prev_position * MAX_ALLOCATION) * TX_COST_RATE * portfolio
         portfolio = max(portfolio + pnl - tx_cost, 0.0)
 
-        # Reward (for training update)
-        # Forward return approximated as current ret_1d (we observe it just after decision)
-        reward = compute_reward(multiplier, direction, ret_1d, vol_7d, prev_position)
+        # Reward: risk-adjusted (Sharpe-like) net of tx costs
+        # Forward return approximated as current ret_1d (observed just after decision)
+        reward = compute_reward(allocation_fraction, direction, ret_1d, vol_7d, prev_position)
         if training:
             bandit.update(arm, state, reward)
 
@@ -155,7 +173,7 @@ def run_bandit_on_window(
             "portfolio_value": portfolio,
             "daily_return": ret_1d,
             "action_arm": arm,
-            "position_multiplier": multiplier,
+            "allocation_fraction": allocation_fraction,
             "direction": direction,
             "confidence": confidence,
             "rationale": rationale,
@@ -183,14 +201,21 @@ def run_walk_forward(
     """
     Full walk-forward backtest for a single coin.
 
+    Four strategies compared (spec section 6):
+      1. buy-and-hold
+      2. LLM-only (fixed size)
+      3. Meta-labeling baseline (supervised, same walk-forward structure)
+      4. Contextual bandit (LinUCB, memoryless discrete allocations)
+
     Returns
     -------
     dict with keys:
-      "bandit_results" : DataFrame of eval-window bandit steps
-      "bah_results"    : DataFrame of eval-window buy-and-hold steps
-      "llm_results"    : DataFrame of eval-window LLM-only steps
-      "oracle_returns" : list of oracle (best-action) returns per eval step
-      "windows"        : list of (train_start, train_end, eval_start, eval_end)
+      "bandit_results"     : DataFrame of eval-window bandit steps
+      "bah_results"        : DataFrame of eval-window buy-and-hold steps
+      "llm_results"        : DataFrame of eval-window LLM-only steps
+      "meta_label_results" : DataFrame of eval-window meta-labeling steps
+      "oracle_returns"     : list of oracle (best-action) returns per eval step
+      "windows"            : list of (train_start, train_end, eval_start, eval_end)
     """
     coin_prices = (
         prices_df[prices_df["coin"] == coin]
@@ -208,6 +233,7 @@ def run_walk_forward(
     bandit_eval_records = []
     bah_eval_records = []
     llm_eval_records = []
+    meta_label_eval_records = []
     oracle_returns = []
     windows = []
 
@@ -278,12 +304,31 @@ def run_walk_forward(
         llm["coin"] = coin
         llm_eval_records.append(llm)
 
+        # --- Meta-labeling baseline (3rd strategy, same fold) ---
+        try:
+            meta_df = run_meta_label_baseline(
+                train_prices=train_prices,
+                eval_prices=eval_prices,
+                train_signals=train_signals,
+                eval_signals=eval_signals,
+                coin=coin,
+                prices_df=prices_df,
+                signals_df=signals_df,
+                start_portfolio=start_portfolio,
+                model_type="logistic",
+            )
+            meta_df["fold"] = fold
+            meta_df["coin"] = coin
+            meta_label_eval_records.append(meta_df)
+        except Exception as exc:
+            logger.warning("Meta-labeling failed for %s fold %d: %s", coin, fold, exc)
+
         # --- Oracle: perfect-foresight best action ---
         price_vals = eval_prices.values
         for j in range(1, len(price_vals)):
             fwd_ret = price_vals[j] / price_vals[j-1] - 1
-            best_mult = max(ACTIONS, key=lambda m: m * fwd_ret)
-            oracle_returns.append(best_mult * abs(fwd_ret) * MAX_ALLOCATION)
+            best_alloc = max(ACTIONS, key=lambda a: a * abs(fwd_ret) * (1 if fwd_ret > 0 else -1))
+            oracle_returns.append(best_alloc * abs(fwd_ret) * MAX_ALLOCATION)
 
         windows.append((
             str(train_start.date()), str(train_end.date()),
@@ -296,6 +341,7 @@ def run_walk_forward(
         "bandit_results": pd.concat(bandit_eval_records, ignore_index=True) if bandit_eval_records else pd.DataFrame(),
         "bah_results": pd.concat(bah_eval_records, ignore_index=True) if bah_eval_records else pd.DataFrame(),
         "llm_results": pd.concat(llm_eval_records, ignore_index=True) if llm_eval_records else pd.DataFrame(),
+        "meta_label_results": pd.concat(meta_label_eval_records, ignore_index=True) if meta_label_eval_records else pd.DataFrame(),
         "oracle_returns": oracle_returns,
         "windows": windows,
     }
@@ -304,6 +350,7 @@ def run_walk_forward(
 def run_full_backtest(prices_df: pd.DataFrame, signals_df: pd.DataFrame) -> dict:
     """
     Run walk-forward backtest for all coins. Saves results to JSON.
+    Compares four strategies: buy-and-hold, LLM-only, meta-labeling, bandit.
     """
     from data_ingest import COINS, COIN_SYMBOLS
     all_results = {}
@@ -319,6 +366,13 @@ def run_full_backtest(prices_df: pd.DataFrame, signals_df: pd.DataFrame) -> dict
             k: v.to_dict(orient="records") if isinstance(v, pd.DataFrame) else v
             for k, v in result.items()
         }
+        logger.info(
+            "  Strategies: bandit=%d rows, bah=%d, llm=%d, meta=%d",
+            len(result["bandit_results"]),
+            len(result["bah_results"]),
+            len(result["llm_results"]),
+            len(result["meta_label_results"]),
+        )
 
     # Persist
     RESULTS_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -339,6 +393,9 @@ if __name__ == "__main__":
     if not sig_path.exists():
         logger.error("signals.csv not found. Run: python llm_signal.py first")
         sys.exit(1)
-    signals = pd.read_csv(sig_path, parse_dates=["date"])
+    signals = pd.read_csv(sig_path)
+    signals["date"] = pd.to_datetime(signals["date"]).dt.tz_localize(None)
+    prices["date"] = pd.to_datetime(prices["date"]).dt.tz_localize(None)
+
     results = run_full_backtest(prices, signals)
     logger.info("Walk-forward backtest complete.")

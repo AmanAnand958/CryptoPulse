@@ -1,107 +1,276 @@
 {
   "bitcoin": {
     "bandit": {
-      "cumulative_return": -0.013490997573116004,
-      "sharpe_ratio": -2.8312599298788834,
-      "max_drawdown": 0.024064477890240302,
-      "final_value": 9865.09002426884
+      "cumulative_return": 0.020201414189271683,
+      "sharpe_ratio": -0.8574482485380786,
+      "sortino_ratio": -0.9440534996193966,
+      "calmar_ratio": 1.2772104384926013,
+      "max_drawdown": 0.015816825153037384,
+      "win_rate": 0.1598639455782313,
+      "monte_carlo_p_value": 0.543,
+      "final_value": 10202.014141892718
     },
     "buy_and_hold": {
       "cumulative_return": 0.004534144084081815,
       "sharpe_ratio": -0.32220259533640344,
+      "sortino_ratio": -0.3476088277488955,
+      "calmar_ratio": 0.07885484295868284,
       "max_drawdown": 0.05749988097062785,
+      "win_rate": 0.5,
+      "monte_carlo_p_value": 0.501,
       "final_value": 10045.341440840817
     },
     "llm_only": {
       "cumulative_return": 0.03133853644882634,
       "sharpe_ratio": -0.17206692321404107,
+      "sortino_ratio": -0.18440918127317868,
+      "calmar_ratio": 0.7640285131402161,
       "max_drawdown": 0.041017495957084815,
+      "win_rate": 0.1598639455782313,
+      "monte_carlo_p_value": 0.539,
       "final_value": 10313.385364488264
+    },
+    "meta_labeling": {
+      "cumulative_return": 0.017520301271705785,
+      "sharpe_ratio": -0.6026636898755218,
+      "sortino_ratio": -0.695599807193779,
+      "calmar_ratio": 0.6427966870054798,
+      "max_drawdown": 0.02725636523318986,
+      "win_rate": 0.08843537414965986,
+      "monte_carlo_p_value": 0.523,
+      "final_value": 10175.203012717058
+    },
+    "diagnostics": {
+      "directional_accuracy": {
+        "bandit": 0.7966101694915254,
+        "buy_and_hold": null,
+        "llm_only": null,
+        "meta_labeling": null
+      },
+      "note": "directional_accuracy measures signal quality (fraction of non-hold steps where direction matched return sign). Only strategies with a `direction` column produce a non-null value. This is NOT a portfolio performance metric."
     }
   },
   "ethereum": {
     "bandit": {
-      "cumulative_return": 0.0,
-      "sharpe_ratio": -2.7184455313643006,
-      "max_drawdown": 0.013103613306394073,
-      "final_value": 10000.0
+      "cumulative_return": 5.2418287312727685e-05,
+      "sharpe_ratio": -9.101520977925837,
+      "sortino_ratio": -9.095874958106831,
+      "calmar_ratio": 0.01087795630790609,
+      "max_drawdown": 0.004818762442962757,
+      "win_rate": 0.030612244897959183,
+      "monte_carlo_p_value": 0.522,
+      "final_value": 10000.524182873127
     },
     "buy_and_hold": {
       "cumulative_return": 0.016167089190673778,
       "sharpe_ratio": -0.106315238888982,
+      "sortino_ratio": -0.11317341792883835,
+      "calmar_ratio": 0.1956940751097707,
       "max_drawdown": 0.08261409642374289,
+      "win_rate": 0.5068027210884354,
+      "monte_carlo_p_value": 0.497,
       "final_value": 10161.670891906737
     },
     "llm_only": {
       "cumulative_return": 0.00010480608791940682,
       "sharpe_ratio": -2.4113590384816592,
+      "sortino_ratio": -2.7273384371352463,
+      "calmar_ratio": 0.006646506557996235,
       "max_drawdown": 0.01576859768434553,
+      "win_rate": 0.04081632653061224,
+      "monte_carlo_p_value": 0.518,
       "final_value": 10001.048060879193
+    },
+    "meta_labeling": {
+      "cumulative_return": 0.00010480608791940682,
+      "sharpe_ratio": -3.3436392985632035,
+      "sortino_ratio": -3.906573299287147,
+      "calmar_ratio": 0.008990926712856614,
+      "max_drawdown": 0.011656872674708704,
+      "win_rate": 0.034013605442176874,
+      "monte_carlo_p_value": 0.511,
+      "final_value": 10001.048060879193
+    },
+    "diagnostics": {
+      "directional_accuracy": {
+        "bandit": 0.5882352941176471,
+        "buy_and_hold": null,
+        "llm_only": null,
+        "meta_labeling": null
+      },
+      "note": "directional_accuracy measures signal quality (fraction of non-hold steps where direction matched return sign). Only strategies with a `direction` column produce a non-null value. This is NOT a portfolio performance metric."
     }
   },
   "solana": {
     "bandit": {
       "cumulative_return": 0.0,
-      "sharpe_ratio": -7.58236001092469,
+      "sharpe_ratio": -8.113997375676556,
+      "sortino_ratio": -9.652972822031726,
+      "calmar_ratio": 0.0,
       "max_drawdown": 0.003924576613435967,
+      "win_rate": 0.006802721088435374,
+      "monte_carlo_p_value": 0.513,
       "final_value": 10000.0
     },
     "buy_and_hold": {
       "cumulative_return": 0.035472351724768814,
       "sharpe_ratio": 0.04464026541958958,
+      "sortino_ratio": 0.04894167695367449,
+      "calmar_ratio": 0.44173031873247626,
       "max_drawdown": 0.08030318549687739,
+      "win_rate": 0.47278911564625853,
+      "monte_carlo_p_value": 0.493,
       "final_value": 10354.723517247689
     },
     "llm_only": {
       "cumulative_return": 0.0,
       "sharpe_ratio": -4.002040727096368,
+      "sortino_ratio": -5.3951012583891735,
+      "calmar_ratio": 0.0,
       "max_drawdown": 0.007818469046100734,
+      "win_rate": 0.006802721088435374,
+      "monte_carlo_p_value": 0.516,
       "final_value": 10000.0
+    },
+    "meta_labeling": {
+      "cumulative_return": 0.0,
+      "sharpe_ratio": 0.0,
+      "sortino_ratio": -19.104973174542803,
+      "calmar_ratio": 0.0,
+      "max_drawdown": 0.0,
+      "win_rate": 0.0,
+      "monte_carlo_p_value": 1.0,
+      "final_value": 10000.0
+    },
+    "diagnostics": {
+      "directional_accuracy": {
+        "bandit": 1.0,
+        "buy_and_hold": null,
+        "llm_only": null,
+        "meta_labeling": null
+      },
+      "note": "directional_accuracy measures signal quality (fraction of non-hold steps where direction matched return sign). Only strategies with a `direction` column produce a non-null value. This is NOT a portfolio performance metric."
     }
   },
   "binancecoin": {
     "bandit": {
-      "cumulative_return": -0.0037747598969759544,
-      "sharpe_ratio": -0.8622287015392412,
-      "max_drawdown": 0.044617892082694746,
-      "final_value": 9962.25240103024
+      "cumulative_return": 0.011816034472023729,
+      "sharpe_ratio": -0.831130688913935,
+      "sortino_ratio": -0.9306856207590045,
+      "calmar_ratio": 0.32830766176863324,
+      "max_drawdown": 0.03599073627575219,
+      "win_rate": 0.11224489795918367,
+      "monte_carlo_p_value": 0.529,
+      "final_value": 10118.160344720238
     },
     "buy_and_hold": {
       "cumulative_return": 0.0027975613251856046,
       "sharpe_ratio": -0.24417356071308852,
+      "sortino_ratio": -0.23564239415645274,
+      "calmar_ratio": 0.029807047367837396,
       "max_drawdown": 0.0938557009911773,
+      "win_rate": 0.5306122448979592,
+      "monte_carlo_p_value": 0.5,
       "final_value": 10027.975613251856
     },
     "llm_only": {
       "cumulative_return": 0.02714339078216499,
       "sharpe_ratio": -0.21396675427635337,
+      "sortino_ratio": -0.24276012167013647,
+      "calmar_ratio": 0.517102995664492,
       "max_drawdown": 0.05249126578213874,
+      "win_rate": 0.13945578231292516,
+      "monte_carlo_p_value": 0.522,
       "final_value": 10271.43390782165
+    },
+    "meta_labeling": {
+      "cumulative_return": 0.023512359185482223,
+      "sharpe_ratio": -0.4057004131036191,
+      "sortino_ratio": -0.46485684708331626,
+      "calmar_ratio": 0.7175436076555582,
+      "max_drawdown": 0.032767847047379506,
+      "win_rate": 0.09523809523809523,
+      "monte_carlo_p_value": 0.527,
+      "final_value": 10235.123591854823
+    },
+    "diagnostics": {
+      "directional_accuracy": {
+        "bandit": 0.6949152542372882,
+        "buy_and_hold": null,
+        "llm_only": null,
+        "meta_labeling": null
+      },
+      "note": "directional_accuracy measures signal quality (fraction of non-hold steps where direction matched return sign). Only strategies with a `direction` column produce a non-null value. This is NOT a portfolio performance metric."
     }
   },
   "cardano": {
     "bandit": {
-      "cumulative_return": 0.03129017213482732,
-      "sharpe_ratio": -0.11293482944915088,
-      "max_drawdown": 0.048880034328031625,
-      "final_value": 10312.901721348273
+      "cumulative_return": 0.07032373399588998,
+      "sharpe_ratio": 0.6452744603092987,
+      "sortino_ratio": 0.9036393125777171,
+      "calmar_ratio": 2.6970872239076895,
+      "max_drawdown": 0.026073956145178375,
+      "win_rate": 0.1292517006802721,
+      "monte_carlo_p_value": 0.507,
+      "final_value": 10703.2373399589
     },
     "buy_and_hold": {
       "cumulative_return": 0.04329299554445032,
       "sharpe_ratio": 0.11203277178179184,
+      "sortino_ratio": 0.1359656814445474,
+      "calmar_ratio": 0.43812721003385846,
       "max_drawdown": 0.09881375671943461,
+      "win_rate": 0.445578231292517,
+      "monte_carlo_p_value": 0.492,
       "final_value": 10432.929955444504
     },
     "llm_only": {
       "cumulative_return": 0.08091133965848818,
       "sharpe_ratio": 0.4934552873761311,
+      "sortino_ratio": 0.572270607925225,
+      "calmar_ratio": 0.9610556064076606,
       "max_drawdown": 0.08419007091684058,
+      "win_rate": 0.14285714285714285,
+      "monte_carlo_p_value": 0.538,
       "final_value": 10809.113396584882
+    },
+    "meta_labeling": {
+      "cumulative_return": 0.01999353931254544,
+      "sharpe_ratio": -0.19620004256388468,
+      "sortino_ratio": -0.21689797765709656,
+      "calmar_ratio": 0.23239858769511393,
+      "max_drawdown": 0.08603124274909607,
+      "win_rate": 0.10204081632653061,
+      "monte_carlo_p_value": 0.526,
+      "final_value": 10199.935393125454
+    },
+    "diagnostics": {
+      "directional_accuracy": {
+        "bandit": 0.671875,
+        "buy_and_hold": null,
+        "llm_only": null,
+        "meta_labeling": null
+      },
+      "note": "directional_accuracy measures signal quality (fraction of non-hold steps where direction matched return sign). Only strategies with a `direction` column produce a non-null value. This is NOT a portfolio performance metric."
     }
   },
   "failure_period": {
-    "coin": "binancecoin",
+    "coin": "cardano",
     "fold": 18,
-    "bandit_vs_llm_return_diff": -0.08528959584668705
+    "bandit_vs_llm_return_diff": -0.06328377356777093
+  },
+  "statistical_note": {
+    "monte_carlo_p_range": [
+      0.492,
+      1.0
+    ],
+    "any_significant": false,
+    "interpretation": "p-values near 0.5 indicate results are not distinguishable from random walk at this evaluation window size. A larger out-of-sample window or live trading period is required before claiming statistical validation."
+  },
+  "dataset_metadata": {
+    "dataset_mode": "full_daily_1785",
+    "total_signals_evaluated": 1785,
+    "provenance_note": "This report supersedes all prior 325-sample subsampled runs. Metrics are computed on 1,785 full un-sampled daily LLM signals.",
+    "evaluated_at_utc": "2026-07-31T10:23:44.868650+00:00"
   }
 }

@@ -14,8 +14,9 @@ Returns a strictly-parsed JSON signal:
 
 Caching:
   Signals are cached to data/processed/signal_cache.json keyed by
-  (coin, date_str) so repeated backtest runs do NOT re-call the API.
-  This is critical for reproducibility and staying within free-tier limits.
+  "<coin>::<YYYY-MM-DD>" so repeated backtest runs do NOT re-call the API.
+  Fallback (parse_failure / API error) signals are NEVER written to cache
+  so failed dates are automatically retried on the next run.
 
 Fallback:
   Any parse failure → {"direction": "hold", "confidence": 0.0, "rationale": "parse_failure"}
@@ -28,6 +29,7 @@ import time
 import logging
 import hashlib
 from pathlib import Path
+from typing import Optional
 from datetime import date
 import pandas as pd
 import numpy as np
@@ -36,20 +38,25 @@ from groq import Groq
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
 
-# ---------------------------------------------------------------------------
-# Config
-# ---------------------------------------------------------------------------
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")  # export GROQ_API_KEY="..." before running
-GROQ_MODEL = "llama-3.3-70b-versatile"   # llama3-70b-8192 was decommissioned in 2025
-MAX_RETRIES = 3
-RETRY_SLEEP = 2.0        # seconds between retries
-RATE_LIMIT_SLEEP = 1.0   # seconds between API calls (free tier: 30 req/min)
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 CACHE_PATH = BASE_DIR / "data" / "processed" / "signal_cache.json"
 CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-FALLBACK_SIGNAL = {"direction": "hold", "confidence": 0.0, "rationale": "parse_failure"}
+# Primary & Secondary API Keys
+GROQ_API_KEY_1 = os.environ.get("GROQ_API_KEY", "")
+GROQ_API_KEY_2 = os.environ.get("GROQ_API_KEY_2", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+NVIDIA_API_KEY = os.environ.get("NVIDIA_API_KEY", "")
+
+# Models
+GROQ_MODEL_PRIMARY = "llama-3.3-70b-versatile"
+GROQ_MODEL_FAST = "llama-3.1-8b-instant"   # Much higher rate limits on Groq free tier
+GEMINI_MODEL = "gemini-2.5-flash"
+NVIDIA_MODEL = "meta/llama-3.3-70b-instruct"
+
+MAX_RETRIES = 3
+RATE_LIMIT_SLEEP = 0.5    # Gap between API calls — reduces 429 pressure
+FALLBACK_SIGNAL = {"direction": "hold", "confidence": 0.0, "rationale": "API fallback signal"}
 
 # ---------------------------------------------------------------------------
 # Cache helpers
@@ -99,7 +106,7 @@ def _build_prompt(
         "strongly bearish"
     )
 
-    return f"""You are a quantitative crypto analyst. Analyze the following market data for {coin} ({symbol}) and output a structured trade signal.
+    return f"""You are a neutral quantitative crypto analyst. Analyze the market data for {coin} ({symbol}) and output a calibrated trade signal.
 
 MARKET DATA:
 - Recent daily returns (last 7 days): {', '.join(recent_rets)}
@@ -109,7 +116,15 @@ MARKET DATA:
 - Volume trend: {vol_trend}
 - Sentiment score: {sentiment_score:.3f} ({sentiment_label})
 
-Your task: determine the likely direction over the next 1-3 days.
+Your task: determine the most probable direction over the next 1-3 days.
+
+CALIBRATION REQUIREMENT — before deciding, explicitly consider:
+1. What is the strongest evidence FOR a bullish (long) move?
+2. What is the strongest evidence FOR a bearish (short) move?
+3. Are the signals conflicting, weak, or noisy?
+If the evidence for both directions is roughly balanced, or if volatility is very high, output "hold".
+Only output "long" or "short" when you have clear, asymmetric evidence.
+Aim for roughly equal long/short/hold frequency across many signals — do NOT default to short.
 
 Respond ONLY with a JSON object and absolutely nothing else — no markdown, no commentary, no code fences:
 {{"direction": "long" or "short" or "hold", "confidence": <float 0.0 to 1.0>, "rationale": "<one sentence explanation>"}}
@@ -118,7 +133,6 @@ Rules:
 - direction must be exactly one of: long, short, hold
 - confidence must be a float between 0.0 and 1.0
 - rationale must be a single sentence under 100 words
-- If uncertain, use "hold" with low confidence
 - Do NOT output anything other than the JSON object"""
 
 
@@ -163,6 +177,63 @@ def _validate_signal(obj: dict) -> dict:
     return {"direction": direction, "confidence": confidence, "rationale": rationale}
 
 
+def _call_groq(prompt: str, api_key: str, model: str) -> Optional[str]:
+    """Execute request against Groq API."""
+    if not api_key:
+        return None
+    try:
+        client = Groq(api_key=api_key)
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.1,
+            max_tokens=200,
+        )
+        return response.choices[0].message.content
+    except Exception as exc:
+        logger.warning("Groq API (%s) call failed: %s", model, exc)
+        return None
+
+
+def _call_gemini(prompt: str, api_key: str) -> Optional[str]:
+    """Execute request against Gemini 2.5 Flash Lite via google.genai."""
+    if not api_key:
+        return None
+    try:
+        from google import genai
+        client = genai.Client(api_key=api_key)
+        response = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=prompt,
+        )
+        return response.text
+    except Exception as exc:
+        logger.warning("Gemini API (%s) call failed: %s", GEMINI_MODEL, exc)
+        return None
+
+
+def _call_nvidia(prompt: str, api_key: str) -> Optional[str]:
+    """Execute request against NVIDIA NIM API (high throughput / generous limits)."""
+    if not api_key:
+        return None
+    try:
+        from openai import OpenAI
+        client = OpenAI(
+            base_url="https://integrate.api.nvidia.com/v1",
+            api_key=api_key
+        )
+        response = client.chat.completions.create(
+            model=NVIDIA_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.1,
+            max_tokens=200,
+        )
+        return response.choices[0].message.content
+    except Exception as exc:
+        logger.warning("NVIDIA API (%s) call failed: %s", NVIDIA_MODEL, exc)
+        return None
+
+
 def generate_signal(
     coin: str,
     symbol: str,
@@ -174,14 +245,15 @@ def generate_signal(
     ret_7d: float,
     sentiment_score: float,
     use_cache: bool = True,
-    client: Groq = None,
     cache: dict = None,
 ) -> dict:
     """
-    Generate a trade signal for a single (coin, date) pair.
-
-    Parameters are the market context at that time step.
-    Returns dict with keys: direction, confidence, rationale.
+    Generate a trade signal for a single (coin, date) pair with API key rotation:
+    1. NVIDIA NIM API (meta/llama-3.3-70b-instruct - High Speed & High Limit)
+    2. Groq Key 1 (llama-3.1-8b-instant)
+    3. Groq Key 2 (llama-3.1-8b-instant)
+    4. Gemini API Key (gemini-2.5-flash-lite)
+    5. Fallback rule
     """
     cache_key = _cache_key(coin, date_str)
 
@@ -194,34 +266,40 @@ def generate_signal(
         volatility_7d, ret_1d, ret_7d, sentiment_score,
     )
 
-    if client is None:
-        client = Groq(api_key=GROQ_API_KEY)
+    raw_text = None
 
-    signal = FALLBACK_SIGNAL.copy()
-    for attempt in range(MAX_RETRIES):
-        try:
-            response = client.chat.completions.create(
-                model=GROQ_MODEL,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.1,   # low temp for consistent structured output
-                max_tokens=200,
-            )
-            raw_text = response.choices[0].message.content
-            signal = _parse_signal(raw_text)
-            logger.debug("Signal for %s @ %s: %s", coin, date_str, signal)
-            break
-        except Exception as exc:
-            logger.warning("Groq API attempt %d failed: %s", attempt + 1, exc)
-            if attempt < MAX_RETRIES - 1:
-                time.sleep(RETRY_SLEEP * (attempt + 1))
-            else:
-                logger.error("All retries failed for %s @ %s, using fallback", coin, date_str)
+    # Step 1: Try Gemini API (gemini-2.5-flash - Ultra High Throughput)
+    if GEMINI_API_KEY:
+        raw_text = _call_gemini(prompt, GEMINI_API_KEY)
 
-    # Cache the result
-    if cache is not None:
+    # Step 2: Try Groq Key 1
+    if not raw_text and GROQ_API_KEY_1:
+        logger.info("Rotating to Groq Key 1 (%s)...", GROQ_MODEL_FAST)
+        raw_text = _call_groq(prompt, GROQ_API_KEY_1, GROQ_MODEL_FAST)
+
+    # Step 3: Try Groq Key 2
+    if not raw_text and GROQ_API_KEY_2:
+        logger.info("Rotating to Groq Key 2 (%s)...", GROQ_MODEL_FAST)
+        raw_text = _call_groq(prompt, GROQ_API_KEY_2, GROQ_MODEL_FAST)
+
+    # Step 4: Try NVIDIA NIM API
+    if not raw_text and NVIDIA_API_KEY:
+        logger.info("Rotating to NVIDIA API (%s)...", NVIDIA_MODEL)
+        raw_text = _call_nvidia(prompt, NVIDIA_API_KEY)
+
+    # Parse or Fallback
+    if raw_text:
+        signal = _parse_signal(raw_text)
+    else:
+        logger.warning("All LLM API rotators failed for %s @ %s, using fallback", coin, date_str)
+        signal = FALLBACK_SIGNAL.copy()
+
+    # Cache the result ONLY if it is a real LLM output, NOT an API fallback / parse failure
+    is_fallback = signal.get("rationale") in ("parse_failure", "API fallback signal")
+    if cache is not None and not is_fallback:
         cache[cache_key] = signal
 
-    time.sleep(RATE_LIMIT_SLEEP)  # free-tier rate limit
+    time.sleep(RATE_LIMIT_SLEEP)
     return signal
 
 
@@ -250,7 +328,6 @@ def generate_signals_for_dataframe(
     DataFrame with columns: [date, coin, symbol, direction, confidence, rationale]
     """
     cache = _load_cache() if use_cache else {}
-    client = Groq(api_key=GROQ_API_KEY)
 
     sent_map = sentiment_df.set_index(["date", "coin"])["sentiment"].to_dict()
     results = []
@@ -294,7 +371,6 @@ def generate_signals_for_dataframe(
                 ret_7d=ret_7d,
                 sentiment_score=float(sentiment),
                 use_cache=use_cache,
-                client=client,
                 cache=cache,
             )
 
