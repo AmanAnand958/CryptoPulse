@@ -19,8 +19,15 @@ cryptopulse-rl/data/processed/backtest_results.json
 
 # Keep signal cache and metrics (small, reproducibility)
 # cryptopulse-rl/data/processed/signal_cache.json  <- committed
-# cryptopulse-rl/data/processed/signals.csv       <- committed
-# cryptopulse-rl/reports/                          <- committed (plots + metrics)
+# cryptopulse-rl/data/processed/signals.csv        <- committed
+# cryptopulse-rl/reports/                           <- committed (plots + metrics)
+
+# Stale / pre-calibration old cache — should not be in repo
+cryptopulse-rl/data/processed/llm_signal_cache_old.json
+
+# Runtime-generated files (paper trading log, daily runner log)
+cryptopulse-rl/data/processed/paper_trade_log.json
+cryptopulse-rl/data/processed/daily_runner.log
 
 # Policy checkpoint (regenerated each backtest run)
 cryptopulse-rl/data/processed/policy_checkpoint.json
